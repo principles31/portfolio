@@ -28,7 +28,7 @@
 .bar {
   height: 4px;
   background-color: black;
-  margin: 5px 0;
+  margin: 5px 0;npx stylelint "**/*.{npx stylelint "**/*.{css,scss}"css,scss}"
 }
 
 /* Main section */
@@ -36,10 +36,10 @@
   display: none;
 }
 
-@media all and (max-width:500px) {
-  
-  /* Main Container */
-  .flex_container > *{
+@media all and (max-width: 500px) {
+
+/* Main Container */
+  .flex_container > * {
     order:9999;
     position: relative;
     width: 320px;
