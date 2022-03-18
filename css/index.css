@@ -28,31 +28,33 @@
 .bar {
   height: 4px;
   background-color: black;
-  margin: 5px 0;   
+  margin: 5px 0;
 }
+
 /* Main section */
 .mobile_logo {
   display: none;
 }
 
 @media all and (max-width:500px) {
-    /* Main Container */
-    .flex_container > *{
-      order:9999;
-      position: relative;
-      width: 320px;
-      height: 4910px;
-      background:  #FFFFFF;
+  
+  /* Main Container */
+  .flex_container > *{
+    order:9999;
+    position: relative;
+    width: 320px;
+    height: 4910px;
+    background:  #FFFFFF;
     }
 
-    /* Navigation Section */
-    .toggleNav {
-      position: absolute;
-      width: 20px;
-      height: 14px;
-      right:30px;
-      top: 5px;
-    }
+  /* Navigation Section */
+  .toggleNav {
+    position: absolute;
+    width: 20px;
+    height: 14px;
+    right:30px;
+    top: 5px;
+}
 
     .mobile_logo {
       position: absolute;
