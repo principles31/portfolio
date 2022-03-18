@@ -8,9 +8,9 @@
 .flex_nav ul {
   border: 1px solid white;
   list-style: none;
-  margin: 0px;
-  padding: 0px;
-  display: flex;  
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .flex_nav li {
@@ -30,14 +30,12 @@
   background-color: black;
   margin: 5px 0;   
 }
-
 /* Main section */
 .mobile_logo {
   display: none;
 }
 
 @media all and (max-width:500px) {
-
     /* Main Container */
     .flex_container > *{
       order:9999;
