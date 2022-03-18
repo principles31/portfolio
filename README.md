@@ -13,7 +13,8 @@
 To get a local copy up and running,follow these simple steps
 
 -create a repository in your github
--clone the repository into your local machine in the command line using git@github.com:principles31/portfolio.git
+-clone the repository into your local machine in the command line below 
+    git clone git@github.com:principles31/portfolio.git
 -cd into the portfolio
 -open a text editor of your choice
 
@@ -21,9 +22,9 @@ To get a local copy up and running,follow these simple steps
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/principles31/Hello-World)
-- Twitter: [@twitterhandle](https://Twiter.com/@Manuel31mens)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/emmanuel-mensah-6a044922a)
+- GitHub: [@principle31](https://github.com/principles31)
+- Twitter: [@manuel31mens](https://Twiter.com/@Manuel31mens)
+- LinkedIn: [emmanuel-mensah](www.linkedin.com/in/emmanuel-mensah-6a044922a)
 
 ## 🤝 Contributing
 
