@@ -1,0 +1,144 @@
+/* Navigation bar */
+.flex_nav {
+  width: 500px;
+  align-items: center;
+  padding: 50px;
+}
+
+.flex_nav ul {
+  border: 1px solid white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.flex_nav li {
+  flex: 3;
+}
+
+.toggleNav {
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  right: 284px;
+  top: 19px;
+}
+
+.bar {
+  height: 4px;
+  background-color: black;
+  margin: 5px 0;
+}
+
+/* Main section */
+.mobile_logo {
+  display: none;
+}
+
+@media all and (max-width: 500px) {
+  /* Main Container */
+  .flex_container > * {
+    order: 9999;
+    position: relative;
+    width: 320px;
+    height: 4910px;
+    background: #fff;
+  }
+
+  /* Navigation Section */
+  .toggleNav {
+    position: absolute;
+    width: 20px;
+    height: 14px;
+    right: 0;
+    top: 5px;
+    display: block;
+  }
+
+  .mobile_logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    background-image: url('../img/mobile_logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+  }
+
+  .flex_nav ul {
+    flex-direction: column;
+    display: none;
+  }
+
+  .flex_container {
+    display: flex;
+  }
+
+  .flex_nav {
+    order: 1;
+  }
+
+  /* Headline Section */
+  .section_flex {
+    order: 2;
+  }
+
+  .text_color {
+    color: #1a2236;
+  }
+
+  .text_class {
+    position: absolute;
+    width: 220px;
+    height: 100px;
+    top: 40px;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 120%;
+  }
+
+  .text_subject {
+    position: absolute;
+    width: 360px;
+    height: 126px;
+    left: 16px;
+    top: 224px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+  }
+
+  .text_button {
+    position: absolute;
+    padding: 0;
+    display: flex;
+    width: 360px;
+    height: 50px;
+    left: 16px;
+    top: 390px;
+    background: #1a2236;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile_image {
+    position: absolute;
+    height: 160px;
+    top: 472px;
+    left: 0;
+    background-image: url('../img/mobile_image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100vw;
+  }
+}
