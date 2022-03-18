@@ -31,9 +31,3 @@ Contributions, issues, and feature requests are welcome!
 ## Acknowledgments
 
 -Microverse
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.)
-- Twitter: [@twitterhandle]()
-- LinkedIn: [LinkedIn]()
