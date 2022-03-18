@@ -51,7 +51,7 @@
     position: absolute;
     width: 20px;
     height: 14px;
-    right: 30px;
+    right: 0;
     top: 5px;
     display: block;
   }
@@ -61,10 +61,11 @@
     left: 0;
     top: 0;
     display: block;
-  }
-
-  .mobile_logo img {
-    width: 30vw;
+    background-image: url('../img/mobile_logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
   }
 
   .flex_nav ul {
@@ -81,18 +82,24 @@
   }
 
   /* Headline Section */
+  .section_flex{
+    order: 2;
+  }
+
+  .text_color {
+    color: #1a2236;
+  }
+
   .text_class {
     position: absolute;
     width: 220px;
     height: 100px;
-    left: 16px;
-    top: 104px;
-    font-family: Arial, Helvetica, sans-serif;
+    top: 40px;
+    font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
-    line-height: 100%;
-    color: #1a2236;
+    line-height: 120%;
   }
 
   .text_subject {
@@ -101,13 +108,12 @@
     height: 126px;
     left: 16px;
     top: 224px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     letter-spacing: -0.01em;
-    color: #1a2236;
   }
 
   .text_button {
@@ -126,13 +132,13 @@
 
   .mobile_image {
     position: absolute;
-    width: 320px;
     height: 160px;
     top: 472px;
     left: 0;
-  }
-
-  .mobile_image img {
+    background-image: url('../img/mobile_image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     width: 100vw;
   }
 }
