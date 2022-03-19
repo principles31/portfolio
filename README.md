@@ -32,5 +32,6 @@ Contributions, issues, and feature requests are welcome!
 
 ## Acknowledgments
 
--Microverse
+- Microverse
+- Icon 8 images
 
