@@ -2,6 +2,7 @@
 # Portfolio: setup and mobile version skeleton
 > The goal of this project is to create the UI from the templates in Figma. 
 > The Works sections has been added to the project
+> About Section was added to the project
 > Template 5 was used.
 > 
 ## Header section
@@ -20,7 +21,19 @@
 
 ![Screenshot from 2022-03-19 10-07-00](https://user-images.githubusercontent.com/90258833/159131233-cab92679-99aa-4eb4-a062-07b34a64b515.png)
 
+## About 
+
+![Screenshot from 2022-03-19 13-29-18](https://user-images.githubusercontent.com/90258833/159137489-3d18a36e-b852-4c29-838c-710641dc387d.png)
+
+![Screenshot from 2022-03-19 13-29-36](https://user-images.githubusercontent.com/90258833/159137492-390806a2-39fe-43e2-96dc-e82743a09ec5.png)
+
+![Screenshot from 2022-03-19 13-29-47](https://user-images.githubusercontent.com/90258833/159137496-9350a2e4-4086-4c4f-9c0b-31dbdc51c3fc.png)
+
+![Screenshot from 2022-03-19 13-29-58](https://user-images.githubusercontent.com/90258833/159137503-151e0357-be60-40e6-b4bc-eed3206e1c38.png)
+
+
 ## Built With
+
 
 - html
 - css
