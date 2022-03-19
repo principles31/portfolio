@@ -118,11 +118,13 @@
     height: 20px;
   }
 
-  .project_click_class:hover {
+  .project_click_class:hover .about_button:hover{
     background-color: rgba(53, 53, 48, 0.486);
   }
 
-  .project_click_class:active {
+  .project_click_class:active .about_button:active{
     background-color: rgba(156, 231, 69, 0.623);
   }
+
+ 
 }
