@@ -1,0 +1,132 @@
+@media all and (max-width: 500px) {
+/* work section css */
+
+  .works_section {
+    position: absolute;
+    top: 650px;
+  }
+
+ 
+  .project_text {
+    position: absolute;
+    width: 181px;
+    height: 50px;
+    left: 10px;
+  }
+
+  .work_container {
+    display: grid;
+    grid-template-areas:'grid_area_1' 'grid_area_2';
+    margin-top: 150px;
+    height: 200px;    
+  }
+
+  .work_container1 {
+    display: grid;
+    grid-template-rows:auto;
+    height: 200px;    
+  }
+
+  .grid_picture {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 186px;
+    width:100vw;
+  }
+  .grid_1 {
+    background-image: url('../img/work_1.png');
+  }
+
+  .grid_2 {
+    background-image: url('../img/work_2.png');
+  }
+
+  .grid_3 {
+    background-image: url('../img/work_3.png');
+  }
+
+  .grid_4 {
+    background-image: url('../img/work_4.png');
+  }
+
+  .grid_5 {
+    background-image: url('../img/work_5.png');
+  }
+
+  .grid_6 {
+    background-image: url('../img/work_6.png');
+  }
+
+  .grid_row {
+    background: #1a2236;
+    width:100vw;
+    height: 156px;
+  }
+
+  .pro_text {
+    margin-left: 25px;
+    width: 264px;
+    height: 16px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    color: #fff;
+  }
+
+  .list_category{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    margin: -10px;
+  }
+
+  .list_category > li {
+    background-color: #98dede;
+    margin: 10px;
+    font-size: 15px;
+    width: 87px;
+    height: 20px;
+    list-style-type: none; 
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .project_click_class {
+    background: #1a2236;
+    width: 178px;
+    height: 40px;
+    border: 1px solid #fff;
+    margin-top: 15px;
+    margin-left: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project_click_class > p {
+    width: 124px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+  }
+
+  .arrow_key {
+    background-image: url('../img/icons8-right-arrow-50.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 30px;
+    height: 20px;
+  }
+
+  .project_click_class:hover {
+    background-color: rgba(53, 53, 48, 0.486);
+  }
+
+}
