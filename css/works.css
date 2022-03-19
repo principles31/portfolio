@@ -1,12 +1,10 @@
 @media all and (max-width: 500px) {
-/* work section css */
-
+    /* work section css */
   .works_section {
     position: absolute;
     top: 650px;
   }
 
- 
   .project_text {
     position: absolute;
     width: 181px;
@@ -16,14 +14,8 @@
 
   .work_container {
     display: grid;
-    grid-template-areas:'grid_area_1' 'grid_area_2';
+    grid-template-areas: auto;
     margin-top: 150px;
-    height: 200px;    
-  }
-
-  .work_container1 {
-    display: grid;
-    grid-template-rows:auto;
     height: 200px;    
   }
 
@@ -34,6 +26,7 @@
     height: 186px;
     width:100vw;
   }
+
   .grid_1 {
     background-image: url('../img/work_1.png');
   }
@@ -124,9 +117,8 @@
     width: 30px;
     height: 20px;
   }
-
+s
   .project_click_class:hover {
     background-color: rgba(53, 53, 48, 0.486);
   }
-
 }
