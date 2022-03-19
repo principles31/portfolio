@@ -1,5 +1,5 @@
 @media all and (max-width: 500px) {
-    /* work section css */
+  /* work section css */
   .works_section {
     position: absolute;
     top: 650px;
@@ -14,9 +14,9 @@
 
   .work_container {
     display: grid;
-    grid-template-areas: auto;
+    grid-template-rows: auto;
     margin-top: 150px;
-    height: 200px;    
+    height: 200px;
   }
 
   .grid_picture {
@@ -24,7 +24,7 @@
     background-size: cover;
     background-position: center;
     height: 186px;
-    width:100vw;
+    width: 100vw;
   }
 
   .grid_1 {
@@ -53,7 +53,7 @@
 
   .grid_row {
     background: #1a2236;
-    width:100vw;
+    width: 100vw;
     height: 156px;
   }
 
@@ -67,7 +67,7 @@
     color: #fff;
   }
 
-  .list_category{
+  .list_category {
     display: flex;
     flex-direction: row;
     padding-left: 25px;
@@ -80,7 +80,7 @@
     font-size: 15px;
     width: 87px;
     height: 20px;
-    list-style-type: none; 
+    list-style-type: none;
     font-weight: 400;
     text-align: center;
     padding: 5px;
@@ -117,7 +117,7 @@
     width: 30px;
     height: 20px;
   }
-s
+
   .project_click_class:hover {
     background-color: rgba(53, 53, 48, 0.486);
   }
