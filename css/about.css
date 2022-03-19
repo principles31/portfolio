@@ -1,8 +1,8 @@
 @media all and (max-width: 500px) {
   /* About Section */
   .about_section {
-      position: absolute;
-      top: 2850px;
+    position: absolute;
+    top: 2850px;
   }
 
   .about_text {
@@ -18,7 +18,7 @@
     top: 240px;
   }
 
-  .download_image{
+  .download_image {
     background-image: url('../img/icons8_download_100.png');
     background-repeat: no-repeat;
     background-size: contain;
