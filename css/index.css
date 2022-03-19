@@ -86,6 +86,7 @@ body {
     width: 220px;
     height: 100px;
     top: 40px;
+    left: 20px;
   }
 
   .text_subject {
@@ -100,7 +101,7 @@ body {
     position: absolute;
     padding: 0;
     display: flex;
-    width: 360px;
+    width: 390px;
     height: 50px;
     left: 16px;
     top: 370px;
@@ -108,6 +109,8 @@ body {
     color: white;
     align-items: center;
     justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
   }
 
   .mobile_image {
