@@ -2,7 +2,7 @@
   /* contact_Section */
   .contact_section {
     position: absolute;
-    top:4290px;
+    top: 4290px;
     display: flex;
     flex-direction: column;
   }
@@ -19,7 +19,7 @@
     font-weight: 400;
     font-size: 50px;
     line-height: 100%;
-    order:0;
+    order: 0;
   }
 
   .bottom_row {
