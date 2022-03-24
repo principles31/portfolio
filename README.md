@@ -56,10 +56,12 @@ To get a local copy up and running,follow these simple steps
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+- Ali Jandoubi
+- Anthony Mwenyo
 
 ## Acknowledgments
 
 - Microverse
 - Icon 8 images
+
 
