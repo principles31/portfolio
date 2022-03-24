@@ -3,5 +3,77 @@
   .contact_section {
     position: absolute;
     top:4290px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-desc {
+    order: 1;
+    margin: 20px;
+  }
+
+  .title-contact {
+    margin: 0;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    order:0;
+  }
+
+  .bottom_row {
+    order: 5;
+    background: #1a2236;
+    height: 200px;
+  }
+
+  .resume_color {
+    color: #92dcdc;
+    font-size: 26px;
+    line-height: 24px;
+    font-weight: 500;
+    position: absolute;
+    left: 50px;
+  }
+
+  .arrow_upload {
+    background-image: url('../img/arraw_upload.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    left: 185px;
+    top: 20px;
+  }
+
+  .divicon {
+    position: absolute;
+    left: 120px;
+    bottom: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .image_upload {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 60px;
+    height: 50px;
+  }
+
+  .twitter_upload {
+    background-image: url('../img/twitte.png');
+  }
+
+  .github_upload {
+    background-image: url('../img/github.png');
+  }
+
+  .linkin_upload {
+    background-image: url('../img/linkedin.png');
   }
 }
