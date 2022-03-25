@@ -56,15 +56,17 @@
   }
 
   .sociallist {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     list-style: none;
     padding: 0;
   }
+
   .sociallist_link > a > img {
     width: 25px;
-    height: 25px; 
+    height: 25px;
     margin: 20px;
-    border-bottom: 10px; 
+    border-bottom: 10px;
+
   }
 }
