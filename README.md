@@ -2,7 +2,9 @@
 # Portfolio: setup and mobile version skeleton
 > The goal of this project is to create the UI from the templates in Figma. 
 > The Works sections has been added to the project
+
 > About Section was added to the project
+
 > Template 5 was used.
 > 
 ## Header section
