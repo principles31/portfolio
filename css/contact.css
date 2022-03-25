@@ -52,7 +52,7 @@
   .divicon {
     position: absolute;
     bottom: 0;
-    margin-left: 25px;
+    margin-left: 60px;
   }
 
   .sociallist {
@@ -62,8 +62,8 @@
     padding: 0;
   }
   .sociallist_link > a > img {
-    max-width: 50px;
-    max-height: 50px; 
+    width: 25px;
+    height: 25px; 
     margin: 20px;
     border-bottom: 10px; 
   }
