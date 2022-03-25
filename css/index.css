@@ -1,6 +1,7 @@
 /* Navigation bar */
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .flex_nav {
@@ -65,7 +66,7 @@ body {
     left: 0;
     top: 0;
     display: block;
-    background-image: url('../img/mobile_logo.png');
+    background-image: url("../img/mobile_logo.png");
     background-repeat: no-repeat;
     background-size: contain;
     width: 100px;
@@ -118,7 +119,7 @@ body {
     height: 220px;
     top: 462px;
     left: 0;
-    background-image: url('../img/mobile_image.png');
+    background-image: url("../img/mobile_image.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -126,7 +127,7 @@ body {
   }
 
   .text_header_font {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
@@ -134,11 +135,66 @@ body {
   }
 
   .text_body_font {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     letter-spacing: -0.01em;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: #f9f9fa;
+  }
+
+  .contact-header {
+    margin-left: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    order: 4;
+  }
+
+  input {
+    width: 90%;
+    height: 52px;
+    padding: 30px;
+    margin: 5px;
+    background-color: #fff;
+    border: 2px solid #dfdfe0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  textarea {
+    width: 90%;
+    padding: 60px;
+    margin: 5px;
+    background-color: #fff;
+    border: 2px solid #dfdfe0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  button {
+    width: 90%;
+    padding: 20px;
+    margin: 15px;
+    background: #1a2236;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: 24px;
   }
 }
