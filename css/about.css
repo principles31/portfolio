@@ -38,7 +38,7 @@
   }
 
   .about_row {
-    width: 390px;
+    width: 100vw;
     height: 350px;
     display: flex;
   }
@@ -67,21 +67,21 @@
   .about_img_1 {
     display: flex;
     bottom: -199px;
-    right: 14px;
+    right: 0;
     background-image: url('../img/about_1.png');
   }
 
   .about_img_2 {
     display: flex;
     bottom: -562px;
-    right: 14px;
+    right: 0;
     background-image: url('../img/about_2.png');
   }
 
   .about_img_3 {
     display: flex;
     bottom: -933px;
-    right: 14px;
+    right: 0;
     background-image: url('../img/about_3.png');
   }
 
