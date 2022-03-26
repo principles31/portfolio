@@ -43,13 +43,13 @@ body {
   background-color: rgba(156, 231, 69, 0.623);
 }
 
-.flex_nav > ul > li > a:hover {
-  text-decoration-line: underline;
-}
-
 .flex_nav > ul > li > a {
   text-decoration-line: none;
   color: #1a2236;
+}
+
+.flex_nav > ul > li > a:hover {
+  text-decoration-line: underline;
 }
 
 .flex_nav > ul > li > a:active {
@@ -61,7 +61,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .flex_container{
+  .flex_container {
     margin-left: 300px;
     margin-right: 300px;
   }
