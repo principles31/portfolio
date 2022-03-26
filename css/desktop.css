@@ -43,17 +43,17 @@ body {
   background-color: rgba(156, 231, 69, 0.623);
 }
 
-.flex_nav>ul>li>a:hover {
+.flex_nav > ul > li > a:hover {
   text-decoration-line: underline;
 }
 
-.flex_nav>ul>li>a:active {
-  text-decoration-line: underline;
-}
-
-.flex_nav>ul>li>a {
+.flex_nav > ul > li > a {
   text-decoration-line: none;
   color: #1a2236;
+}
+
+.flex_nav > ul > li > a:active {
+  text-decoration-line: underline;
 }
 
 .li_first {
@@ -65,6 +65,7 @@ body {
     margin-left: 300px;
     margin-right: 300px;
   }
+
   .flex_nav ul {
     border: 1px solid white;
     list-style: none;
@@ -77,7 +78,7 @@ body {
 
   .flex_nav {
     padding-left: 22vw;
-    padding-bottom: 50px
+    padding-bottom: 50px;
   }
 
   .flex_nav li {
@@ -86,20 +87,20 @@ body {
     line-height: 24px;
     color: #1a2236;
   }
-  
 
   .mobile_off {
     display: none;
   }
 
   .section_div {
-      display: flex;
-      flex-direction: row;
+    display: flex;
+    flex-direction: row;
   }
 
   .section_div_1 {
-      width: 600px;
+    width: 600px;
   }
+
   .backgroundimage {
     background-image: url("../img/index_pic.png");
     background-repeat: no-repeat;
@@ -146,11 +147,11 @@ body {
     display: flex;
   }
 
-  .works_section{
+  .works_section {
     position: relative;
     margin-top: 100px;
-  
-}
+  }
+
   .project_text_d {
     transform: rotate(270deg);
     width: 200px;
@@ -160,7 +161,7 @@ body {
   }
 
   .project_text_d > h2 {
-      margin: 0;
+    margin: 0;
   }
 
   .work_container {
@@ -178,7 +179,6 @@ body {
 
   .grid_1 {
     background-image: url('../img/work_desktop.png');
-    
   }
 
   .grid_2 {
@@ -189,7 +189,7 @@ body {
     background-position: right;
     background-size: contain;
     top: 280px;
-    left: 0px;
+    left: 0;
   }
 
   .grid_3 {
@@ -221,7 +221,7 @@ body {
     background-position: right;
     background-size: contain;
     top: 480px;
-    right: 0px;
+    right: 0;
   }
 
   .grid_6 {
@@ -310,8 +310,8 @@ body {
   }
 
   .order_2 {
-      order: 2;
-      margin-left: 50px;
+    order: 2;
+    margin-left: 50px;
   }
 
   .about_container {
@@ -411,7 +411,7 @@ body {
   }
 
   .text_header_font {
-      text-align: center;
+    text-align: center;
   }
 
   .contact-header {
@@ -485,7 +485,6 @@ body {
   }
 
   .divicon {
-  
     bottom: 0;
     margin-left: 60px;
   }
@@ -505,8 +504,8 @@ body {
   }
 
   .footer_div {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
   .get_cv {
