@@ -1,63 +1,64 @@
 /* Navigation bar */
 body {
-    margin: 0;
-  }
-  .text_header_font {
-    font-family: "Playfair Display", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 120%;
-  }
+  margin: 0;
+}
 
-  .text_body_font {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.01em;
-  }
+.text_header_font {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 120%;
+}
 
-  .text_color {
-    color: #1a2236;
-  }
+.text_body_font {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+}
 
-  .mobile_logo {
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-image: url("../img/mobile_logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100px;
-    height: 100px;
-  }
+.text_color {
+  color: #1a2236;
+}
 
-  .project_click_class:hover .about_button:hover {
-    background-color: rgba(53, 53, 48, 0.486);
-  }
+.mobile_logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url("../img/mobile_logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+}
 
-  .project_click_class:active .about_button:active {
-    background-color: rgba(156, 231, 69, 0.623);
-  }
+.project_click_class:hover .about_button:hover {
+  background-color: rgba(53, 53, 48, 0.486);
+}
 
-  .flex_nav>ul>li>a:hover {
-    text-decoration-line: underline;
-  }
+.project_click_class:active .about_button:active {
+  background-color: rgba(156, 231, 69, 0.623);
+}
 
-  .flex_nav>ul>li>a:active {
-    text-decoration-line: underline;
-  }
+.flex_nav>ul>li>a:hover {
+  text-decoration-line: underline;
+}
 
-  .flex_nav>ul>li>a {
-    text-decoration-line: none;
-    color: #1a2236;
-  }
+.flex_nav>ul>li>a:active {
+  text-decoration-line: underline;
+}
 
-  .li_first {
-    text-decoration-line: underline;
-  }
+.flex_nav>ul>li>a {
+  text-decoration-line: none;
+  color: #1a2236;
+}
+
+.li_first {
+  text-decoration-line: underline;
+}
 
 @media only screen and (min-width: 768px) {
   .flex_container{
