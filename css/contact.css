@@ -41,12 +41,9 @@
     background-image: url('../img/arraw_upload.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
-    width: 60px;
+    background-position: right;
+    width: 160px;
     height: 40px;
-    position: absolute;
-    left: 185px;
-    top: 20px;
   }
 
   .divicon {

@@ -1,45 +1,3 @@
-/* Navigation bar */
-body {
-  margin: 0;
-  overflow-x: hidden;
-}
-
-.flex_nav {
-  align-items: center;
-  padding: 50px;
-}
-
-.flex_nav ul {
-  border: 1px solid white;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.flex_nav li {
-  flex: 3;
-}
-
-.toggleNav {
-  position: absolute;
-  width: 20px;
-  height: 14px;
-  right: 284px;
-  top: 19px;
-}
-
-.bar {
-  height: 4px;
-  background-color: black;
-  margin: 5px 0;
-}
-
-/* Main section */
-.mobile_logo {
-  display: none;
-}
-
 @media all and (max-width: 500px) {
   /* Main Container */
   .flex_container {
@@ -58,14 +16,18 @@ body {
     height: 14px;
     right: 10px;
     top: 5px;
-    display: block;
+  }
+
+  .bar {
+    height: 4px;
+    background-color: black;
+    margin: 5px 0;
   }
 
   .mobile_logo {
     position: absolute;
     left: 0;
     top: 0;
-    display: block;
     background-image: url("../img/mobile_logo.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -76,10 +38,6 @@ body {
   .flex_nav ul {
     flex-direction: column;
     display: none;
-  }
-
-  .text_color {
-    color: #1a2236;
   }
 
   .text_class {
@@ -126,22 +84,6 @@ body {
     width: 100vw;
   }
 
-  .text_header_font {
-    font-family: "Playfair Display", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 120%;
-  }
-
-  .text_body_font {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.01em;
-  }
 
   .container {
     display: flex;
