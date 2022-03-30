@@ -92,7 +92,7 @@ body {
 
   .text_subject {
     position: absolute;
-    width: 360px;
+    width: 90%;
     height: 126px;
     left: 16px;
     top: 224px;
@@ -169,7 +169,7 @@ body {
   input {
     width: 90%;
     height: 52px;
-    padding: 30px;
+    padding: 60px;
     margin: 5px;
     background-color: #fff;
     border: 2px solid #dfdfe0;
