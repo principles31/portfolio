@@ -102,7 +102,7 @@ body {
     position: absolute;
     /* padding: 0; */
     display: flex;
-    width: 90%;
+    width: 90vw;
     height: 50px;
     left: 16px;
     top: 370px;
