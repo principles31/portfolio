@@ -1,18 +1,51 @@
+/* Navigation bar */
+.flex_nav {
+  align-items: center;
+  padding: 50px;
+}
+
+.flex_nav ul {
+  border: 1px solid white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.flex_nav li {
+  flex: 3;
+}
+
+.toggleNav {
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  right: 284px;
+  top: 19px;
+}
+
+.bar {
+  height: 4px;
+  background-color: black;
+  margin: 5px 0;
+}
+
+/* Main section */
+.mobile_logo {
+  display: none;
+}
+
 @media all and (max-width: 500px) {
-  * {
-    outline: 1px solid red;
-  }
 
   body {
     margin: 0;
-    width: 98vw;
-    outline: 1px solid blue;
+    width: 99vw;
   }
 
   .flex_container {
     height: 4910px;
     background: #fff;
-    width: 98vw;
+    /* width: 98vw; */
   }
 
   .flex_nav {
@@ -26,18 +59,14 @@
     height: 14px;
     right: 10px;
     top: 5px;
-  }
-
-  .bar {
-    height: 4px;
-    background-color: black;
-    margin: 5px 0;
+    display: block;
   }
 
   .mobile_logo {
     position: absolute;
     left: 0;
     top: 0;
+    display: block;
     background-image: url("../img/mobile_logo.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -48,6 +77,10 @@
   .flex_nav ul {
     flex-direction: column;
     display: none;
+  }
+
+  .text_color {
+    color: #1a2236;
   }
 
   .text_class {
@@ -91,6 +124,23 @@
     background-size: contain;
     background-position: center;
     width: 98vw;
+  }
+
+  .text_header_font {
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+  }
+
+  .text_body_font {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
   }
 
   .container {

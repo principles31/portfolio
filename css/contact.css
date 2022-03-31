@@ -10,6 +10,7 @@
 
   .section-desc {
     order: 1;
+    margin-left: 10px;
   }
 
   .title-contact {
@@ -42,10 +43,9 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    width: 60px;
+    width: 360px;
     height: 40px;
     position: absolute;
-    left: 185px;
     top: 20px;
   }
 
@@ -69,4 +69,3 @@
     border-bottom: 10px;
   }
 }
-

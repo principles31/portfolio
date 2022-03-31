@@ -62,8 +62,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   .flex_container {
-    margin-left: 300px;
-    margin-right: 300px;
+    width: 98.5vw;
   }
 
   .flex_nav ul {
@@ -95,28 +94,37 @@ body {
   .section_div {
     display: flex;
     flex-direction: row;
+    position: relative;
+    height: 920px;
   }
 
   .section_div_1 {
-    width: 600px;
+    width: 949px;
+    position: absolute;
+    left: 205px;
+    height: 1000px;
   }
 
   .backgroundimage {
     background-image: url("../img/index_pic.png");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 702px;
-    height: 877px;
+    background-position: right;
+    width: 902px;
+    height: 1000px;
+    position: absolute;
+    right: 0;
   }
 
   .backgroundimage_2 {
     background-image: url("../img/dot.png");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 202px;
-    height: 177px;
-    margin-left: 440px;
-    margin-top: 50px;
+    width: 252px;
+    height: 210px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
   }
 
   .text_class {
@@ -147,12 +155,104 @@ body {
     display: flex;
   }
 
+  .backgroundimage_3 {
+    background-image: url("../img/dot.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 252px;
+    height: 210px;
+    position: absolute;
+    left: 20vw;
+  }
+
+  .shape_1 {
+    background-image: url("../img/Shape_10.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 552px;
+    height: 310px;
+    position: absolute;
+    left: 38.5vw;
+    top: 37.7vh;
+  }
+
+  .shape_2 {
+    background-image: url("../img/Shape_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 552px;
+    height: 236px;
+    position: absolute;
+    left: 55vw;
+    top: 69vh;
+    background-color: #ffd4c4;
+  }
+
+  .shape_3 {
+    background-image: url("../img/Shape_2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 552px;
+    height: 100px;
+    position: absolute;
+    left: 50vw;
+    top: 84vh;
+  }
+
+  .shape_4 {
+    background-image: url("../img/dot.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 552px;
+    height: 230px;
+    position: absolute;
+    left: 31vw;
+    top: 70vh;
+  }
+
+  .shape_5 {
+    background-image: url("../img/shape_3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 652px;
+    height: 330px;
+    position: absolute;
+    background-position: right;
+    top: 113.5vh;
+    right: 0;
+  }
+
+  .shape_6 {
+    background-image: url("../img/shape_5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 352px;
+    height: 330px;
+    position: absolute;
+    background-position: left;
+    top: 125vh;
+    right: 26.5vw;
+  }
+
+  .shape_7 {
+    background-image: url("../img/shape_4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 352px;
+    height: 330px;
+    position: absolute;
+    background-position: left;
+    top: 150vh;
+    left: 0;
+  }
+  
   .works_section {
     position: relative;
-    margin-top: 100px;
+    height: 800px;
   }
 
   .project_text_d {
+    left: 205px;
     transform: rotate(270deg);
     width: 200px;
     height: 200px;
@@ -174,43 +274,44 @@ body {
     background-repeat: no-repeat;
     background-position: right;
     height: 186px;
-    width: 1303px;
   }
 
   .grid_1 {
     background-image: url('../img/work_desktop.png');
+    margin-left: 30vw;
+    background-size: 70vw 30vh;
   }
 
   .grid_2 {
     background-image: url('../img/work_2.png');
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 780px;
     background-position: right;
     background-size: contain;
-    top: 280px;
+    top: 330px;
     left: 0;
   }
 
   .grid_3 {
     background-image: url('../img/work_3.png');
     position: absolute;
-    width: 600px;
-    height: 500px;
-    background-position: right;
+    width: 1500px;
+    height: 600px;
+    background-position: left;
     background-size: contain;
-    top: 700px;
+    top: 909px;
   }
 
   .grid_4 {
-    background-image: url('../img/work_4.png');
+    background-image: url('../img/shape_main_2.png');
     position: absolute;
-    width: 600px;
-    height: 500px;
+    width: 800px;
+    height: 900px;
     background-position: right;
     background-size: contain;
-    top: 1050px;
-    right: 120px;
+    top: 1265px;
+    right: 10vw;
   }
 
   .grid_5 {
@@ -220,7 +321,7 @@ body {
     height: 500px;
     background-position: right;
     background-size: contain;
-    top: 480px;
+    top: 600px;
     right: 0;
   }
 
@@ -231,7 +332,7 @@ body {
   .grid_row {
     background: #1a2236;
     height: 156px;
-    margin-left: 485px;
+    margin-left: 30vw;
   }
 
   .alternaterow {
@@ -239,6 +340,7 @@ body {
     top: 400px;
     right: 0;
     width: 600px;
+    height: 300px;
   }
 
   .pro_text {
@@ -306,6 +408,8 @@ body {
     position: relative;
     top: 1300px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
   }
 
@@ -322,8 +426,8 @@ body {
   }
 
   .about_row {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
   }
 
   .about_row_1 {
@@ -348,20 +452,20 @@ body {
   }
 
   .about_img_1 {
-    left: 250px;
-    top: 210px;
     background-image: url('../img/about_1.png');
+    bottom: -144px;
+    left: 626px;
   }
 
   .about_img_2 {
-    top: 205px;
-    left: 600px;
     background-image: url('../img/about_2.png');
+    bottom: -137px;
+    right: 765px;
   }
 
   .about_img_3 {
-    left: 250px;
-    top: 555px;
+    bottom: -539px;
+    left: 626px;
     background-image: url('../img/about_3.png');
   }
 
@@ -398,7 +502,7 @@ body {
 
   .contact_section {
     position: relative;
-    top: 1700px;
+    top: 1900px;
   }
 
   .mobile_logo {
@@ -407,7 +511,9 @@ body {
 
   .contact_div {
     width: 650px;
-    margin-left: 300px;
+    margin-left: 35vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
   }
 
   .text_header_font {
@@ -510,5 +616,28 @@ body {
 
   .get_cv {
     flex-grow: 8;
+  }
+
+  .contact_logo_shape {
+    background-image: url("../img/shape_main_4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 352px;
+    height: 330px;
+    position: absolute;
+    background-position: left;
+    left: 0;
+  }
+
+  .contact_logo_shape_2 {
+    background-image: url("../img/shape_main_5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 352px;
+    height: 330px;
+    position: absolute;
+    background-position: left;
+    right: 0;
+    bottom: 11vh;;
   }
 }
