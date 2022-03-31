@@ -1,8 +1,13 @@
 @media all and (max-width: 500px) {
-  /* Main Container */
+  body {
+    margin: 0;
+    width: 99vw;
+  }
+
   .flex_container {
     height: 4910px;
     background: #fff;
+    width: 98vw;
   }
 
   .flex_nav {
@@ -50,7 +55,7 @@
 
   .text_subject {
     position: absolute;
-    width: 360px;
+    width: 80vw;
     height: 126px;
     left: 16px;
     top: 224px;
@@ -58,9 +63,8 @@
 
   .text_button {
     position: absolute;
-    padding: 0;
     display: flex;
-    width: 390px;
+    width: 80vw;
     height: 50px;
     left: 16px;
     top: 370px;
@@ -81,7 +85,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    width: 100vw;
+    width: 98vw;
   }
 
   .container {
@@ -108,7 +112,7 @@
   }
 
   input {
-    width: 90%;
+    width: 80vw;
     height: 52px;
     padding: 30px;
     margin: 5px;
@@ -119,8 +123,8 @@
   }
 
   textarea {
-    width: 90%;
-    padding: 60px;
+    width: 80vw;
+    padding: 70px;
     margin: 5px;
     background-color: #fff;
     border: 2px solid #dfdfe0;
@@ -129,7 +133,7 @@
   }
 
   button {
-    width: 90%;
+    width: 80vw;
     padding: 20px;
     margin: 15px;
     background: #1a2236;

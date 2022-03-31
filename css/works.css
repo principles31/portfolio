@@ -3,6 +3,7 @@
   .works_section {
     position: absolute;
     top: 650px;
+    width: 95vw;
   }
 
   .project_text {
@@ -24,7 +25,6 @@
     background-size: cover;
     background-position: center;
     height: 186px;
-    width: 100vw;
   }
 
   .grid_1 {
@@ -53,7 +53,6 @@
 
   .grid_row {
     background: #1a2236;
-    width: 100vw;
     height: 156px;
   }
 
@@ -71,7 +70,8 @@
     display: flex;
     flex-direction: row;
     padding-left: 25px;
-    margin: -10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
   }
 
   .list_category > li {
@@ -117,4 +117,12 @@
     width: 30px;
     height: 20px;
   }
-}
+
+  .project_click_class:hover .about_button:hover {
+    background-color: rgba(53, 53, 48, 0.486);
+  }
+
+  .project_click_class:active .about_button:active {
+    background-color: rgba(156, 231, 69, 0.623);
+  }
+  

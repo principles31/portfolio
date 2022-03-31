@@ -5,11 +5,11 @@
     top: 4290px;
     display: flex;
     flex-direction: column;
+    width: 95vw;
   }
 
   .section-desc {
     order: 1;
-    margin: 20px;
   }
 
   .title-contact {
@@ -30,7 +30,7 @@
 
   .resume_color {
     color: #92dcdc;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 24px;
     font-weight: 500;
     position: absolute;
@@ -41,9 +41,12 @@
     background-image: url('../img/arraw_upload.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
-    width: 160px;
+    background-position: center;
+    width: 60px;
     height: 40px;
+    position: absolute;
+    left: 185px;
+    top: 20px;
   }
 
   .divicon {
@@ -66,3 +69,4 @@
     border-bottom: 10px;
   }
 }
+
