@@ -41,7 +41,6 @@ body {
 }
 
 @media all and (max-width: 500px) {
-/* Navigation bar */
   body {
     margin: 0;
     width: 99vw;
