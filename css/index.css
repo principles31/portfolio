@@ -1,7 +1,12 @@
 @media all and (max-width: 500px) {
+  * {
+    outline: 1px solid red;
+  }
+
   body {
     margin: 0;
-    width: 99vw;
+    width: 98vw;
+    outline: 1px solid blue;
   }
 
   .flex_container {
