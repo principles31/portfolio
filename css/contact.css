@@ -5,11 +5,11 @@
     top: 4290px;
     display: flex;
     flex-direction: column;
+    width: 95vw;
   }
 
   .section-desc {
     order: 1;
-    margin: 20px;
   }
 
   .title-contact {
@@ -30,7 +30,7 @@
 
   .resume_color {
     color: #92dcdc;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 24px;
     font-weight: 500;
     position: absolute;
@@ -67,6 +67,5 @@
     height: 25px;
     margin: 20px;
     border-bottom: 10px;
-
   }
 }
