@@ -36,8 +36,7 @@
 }
 
 @media all and (max-width: 500px) {
-
-  body {
+ body {
     margin: 0;
     width: 99vw;
   }
@@ -45,7 +44,6 @@
   .flex_container {
     height: 4910px;
     background: #fff;
-    /* width: 98vw; */
   }
 
   .flex_nav {

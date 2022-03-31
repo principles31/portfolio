@@ -245,7 +245,7 @@ body {
     top: 150vh;
     left: 0;
   }
-  
+
   .works_section {
     position: relative;
     height: 800px;
@@ -638,6 +638,6 @@ body {
     position: absolute;
     background-position: left;
     right: 0;
-    bottom: 11vh;;
+    bottom: 11vh;
   }
 }
