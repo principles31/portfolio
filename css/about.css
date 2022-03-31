@@ -3,6 +3,7 @@
   .about_section {
     position: absolute;
     top: 2850px;
+    width: 95vw;
   }
 
   .about_text {
@@ -34,11 +35,10 @@
     height: 200px;
     justify-content: space-evenly;
     gap: 20px;
-    width: 100vw;
   }
 
   .about_row {
-    width: 100vw;
+    width: 97vw;
     height: 350px;
     display: flex;
   }
