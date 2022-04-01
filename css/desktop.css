@@ -43,16 +43,16 @@ body {
   background-color: rgba(156, 231, 69, 0.623);
 }
 
-.flex_nav > ul > li > a {
+.flex_nav>ul>li>a {
   text-decoration-line: none;
   color: #1a2236;
 }
 
-.flex_nav > ul > li > a:hover {
+.flex_nav>ul>li>a:hover {
   text-decoration-line: underline;
 }
 
-.flex_nav > ul > li > a:active {
+.flex_nav>ul>li>a:active {
   text-decoration-line: underline;
 }
 
@@ -95,14 +95,14 @@ body {
     display: flex;
     flex-direction: row;
     position: relative;
-    height: 920px;
+    height: 70vh;
   }
 
   .section_div_1 {
-    width: 949px;
+    width: 45vw;
     position: absolute;
-    left: 205px;
-    height: 1000px;
+    left: 15vw;
+    height: 69vh;
   }
 
   .backgroundimage {
@@ -110,34 +110,22 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
-    width: 902px;
-    height: 1000px;
+    width: 50vw;
+    height: 70vh;
     position: absolute;
     right: 0;
-  }
-
-  .backgroundimage_2 {
-    background-image: url("../img/dot.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 252px;
-    height: 210px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
   }
 
   .text_class {
     width: 220px;
     height: 100px;
-    margin-bottom: 170px;
+    margin-bottom: 90px;
     margin-top: 130px;
   }
 
   .text_subject {
     width: 360px;
     height: 126px;
-    margin-bottom: 50px;
   }
 
   .text_button {
@@ -155,95 +143,15 @@ body {
     display: flex;
   }
 
-  .backgroundimage_3 {
-    background-image: url("../img/dot.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 252px;
-    height: 210px;
-    position: absolute;
-    left: 20vw;
-  }
-
   .shape_1 {
     background-image: url("../img/Shape_10.png");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 395px;
-    height: 450px;
+    width: 45vw;
+    height: 45vh;
     position: absolute;
-    left: 900px;
-    top: 475px;
-  }
-
-  .shape_2 {
-    background-image: url("../img/Shape_1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 552px;
-    height: 236px;
-    position: absolute;
-    left: 55vw;
-    top: 69vh;
-    background-color: #ffd4c4;
-  }
-
-  .shape_3 {
-    background-image: url("../img/Shape_2.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 552px;
-    height: 100px;
-    position: absolute;
-    left: 50vw;
-    top: 84vh;
-  }
-
-  .shape_4 {
-    background-image: url("../img/dot.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 552px;
-    height: 230px;
-    position: absolute;
-    left: 31vw;
-    top: 70vh;
-  }
-
-  .shape_5 {
-    background-image: url("../img/shape_3.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 652px;
-    height: 330px;
-    position: absolute;
-    background-position: right;
-    top: 113.5vh;
-    right: 0;
-  }
-
-  .shape_6 {
-    background-image: url("../img/shape_5.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 352px;
-    height: 330px;
-    position: absolute;
-    background-position: left;
-    top: 125vh;
-    right: 26.5vw;
-  }
-
-  .shape_7 {
-    background-image: url("../img/shape_4.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 352px;
-    height: 330px;
-    position: absolute;
-    background-position: left;
-    top: 150vh;
-    left: 0;
+    left: 33vw;
+    top: -3vh;
   }
 
   .works_section {
@@ -252,7 +160,7 @@ body {
   }
 
   .project_text_d {
-    left: 205px;
+    left: 15vw;
     transform: rotate(270deg);
     width: 200px;
     height: 200px;
@@ -260,7 +168,7 @@ body {
     top: 100px;
   }
 
-  .project_text_d > h2 {
+  .project_text_d>h2 {
     margin: 0;
   }
 
@@ -277,20 +185,20 @@ body {
   }
 
   .grid_1 {
-    background-image: url('../img/work_desktop.png');
-    margin-left: 30vw;
+    background-image: url('../img/work_section_img.png');
+    margin-left: 31vw;
     background-size: 70vw 30vh;
   }
 
   .grid_2 {
-    background-image: url('../img/work_2.png');
     position: absolute;
-    width: 450px;
-    height: 900px;
-    background-position: right;
-    background-size: contain;
-    top: 330px;
-    left: 0;
+    width: 60vw;
+    height: 45vh;
+    top: 39vh;
+  }
+
+  .grid_2 img {
+    width: 94vw;
   }
 
   .grid_3 {
@@ -303,25 +211,14 @@ body {
     top: 909px;
   }
 
-  .grid_4 {
-    background-image: url('../img/shape_main_2.png');
-    position: absolute;
-    width: 800px;
-    height: 900px;
-    background-position: right;
-    background-size: contain;
-    top: 1265px;
-    right: 10vw;
-  }
-
   .grid_5 {
-    background-image: url('../img/work_5.png');
+    background-image: url("../img/work_main_3.png");
     position: absolute;
-    width: 390px;
-    height: 630px;
+    width: 30vw;
+    height: 59vh;
     background-position: right;
     background-size: contain;
-    top: 600px;
+    top: 65vh;
     right: 0;
   }
 
@@ -332,15 +229,15 @@ body {
   .grid_row {
     background: #1a2236;
     height: 156px;
-    margin-left: 32.5vw;
+    margin-left: 38vw;
   }
 
   .alternaterow {
     position: absolute;
-    top: 600px;
+    top: 45vh;
     right: 0;
-    width: 390px;
-    height: 402px;
+    width: 30vw;
+    height: 34vh;
   }
 
   .pro_text {
@@ -360,7 +257,7 @@ body {
     margin: -10px;
   }
 
-  .list_category > li {
+  .list_category>li {
     background-color: #98dede;
     margin: 10px;
     font-size: 15px;
@@ -385,7 +282,7 @@ body {
     align-items: center;
   }
 
-  .project_click_class > p {
+  .project_click_class>p {
     width: 124px;
     height: 24px;
     font-size: 16px;
@@ -406,7 +303,7 @@ body {
 
   .about_section {
     position: relative;
-    top: 1300px;
+    top: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -453,19 +350,19 @@ body {
 
   .about_img_1 {
     background-image: url('../img/about_1.png');
-    bottom: -144px;
-    left: 626px;
+    bottom: -168px;
+    left: 456px;
   }
 
   .about_img_2 {
     background-image: url('../img/about_2.png');
-    bottom: -137px;
-    right: 765px;
+    bottom: -160px;
+    right: 598px;
   }
 
   .about_img_3 {
-    bottom: -539px;
-    left: 626px;
+    bottom: -560px;
+    left: 456px;
     background-image: url('../img/about_3.png');
   }
 
@@ -502,7 +399,7 @@ body {
 
   .contact_section {
     position: relative;
-    top: 1900px;
+    top: 1450px;
   }
 
   .mobile_logo {
@@ -602,7 +499,7 @@ body {
     padding: 0;
   }
 
-  .sociallist_link > a > img {
+  .sociallist_link>a>img {
     width: 25px;
     height: 25px;
     margin: 20px;
