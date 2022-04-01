@@ -1,6 +1,4 @@
 @media all and (max-width: 500px) {
-
-  /* contact_Section */
   .contact_section {
     position: absolute;
     top: 4290px;
@@ -63,7 +61,7 @@
     padding: 0;
   }
 
-  .sociallist_link>a>img {
+  .sociallist_link > a > img {
     width: 25px;
     height: 25px;
     margin: 20px;
