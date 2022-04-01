@@ -19,7 +19,7 @@
   }
 
   .download_image {
-    background-image: url('../img/icons8_download_100.png');
+    background-image: url("../img/icons8_download_100.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -68,21 +68,21 @@
     display: flex;
     bottom: -199px;
     right: 14px;
-    background-image: url('../img/about_1.png');
+    background-image: url("../img/about_1.png");
   }
 
   .about_img_2 {
     display: flex;
     bottom: -562px;
     right: 14px;
-    background-image: url('../img/about_2.png');
+    background-image: url("../img/about_2.png");
   }
 
   .about_img_3 {
     display: flex;
     bottom: -933px;
     right: 14px;
-    background-image: url('../img/about_3.png');
+    background-image: url("../img/about_3.png");
   }
 
   .about_skills {
@@ -108,13 +108,33 @@
   }
 
   /* CSS_Animation */
-.Animation {
+  .Animation {
+    transform: scale(1.1);
+  }
 
+  button:hover {
+    transform: scale(1.2);
+  }
+
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .Animation {
+    animation: 1s ease-out 0s 1 slideInLeft;
+  }
+}
+
+.Animation {
   transform: scale(1.1);
 }
 
-button:hover {
- transform: scale(1.2);
+.About_skills {
+  transform: scale(1.2);
 }
 
 @keyframes slideInLeft {
@@ -124,17 +144,4 @@ button:hover {
   100% {
     transform: translateX(0);
   }
-}
-.Animation {
-  animation: 1s ease-out 0s 1 slideInLeft;
-}
-}
-
-.Animation {
-  
-  transform: scale(1.1);
-}
-
-.About_skills {
- transform: scale(1.2);
 }
