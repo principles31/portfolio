@@ -134,8 +134,9 @@
 }
 
 .About_skills {
-  transform: scale(1.2);
+
 }
+
 
 @keyframes slideInLeft {
   0% {
