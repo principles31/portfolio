@@ -134,9 +134,13 @@
 }
 
 .About_skills {
-
+  margin: 150px;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: scaleX(2);
 }
-
 
 @keyframes slideInLeft {
   0% {
