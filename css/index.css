@@ -1,9 +1,4 @@
 /* Navigation bar */
-body {
-  margin: 0;
-  overflow-x: hidden;
-}
-
 .flex_nav {
   align-items: center;
   padding: 50px;
@@ -49,7 +44,6 @@ body {
   .flex_container {
     height: 4910px;
     background: #fff;
-    width: 98vw;
   }
 
   .flex_nav {
