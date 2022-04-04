@@ -56,6 +56,11 @@ To get a local copy up and running,follow these simple steps
 - Twitter: [@manuel31mens](https://Twiter.com/@Manuel31mens)
 - LinkedIn: [emmanuel-mensah](www.linkedin.com/in/emmanuel-mensah-6a044922a)
 
+## Live demo
+
+-  https://principles31.github.io/portfolio/
+
+
 ## 🤝 Contributing
 
 - Ali Jandoubi
