@@ -17,12 +17,18 @@
 }
 
 .mobile-icons {
+ 
 }
 
 .mobile-icons img {
+  position: relative;
+  left: 98%;
 }
 
-.mobile-icons .close-button {
+.mobile-icons .close {
+  position: relative;
+  left: 98%;
+  top: 2%; 
 }
 /* .toggleNav {
   position: absolute;
