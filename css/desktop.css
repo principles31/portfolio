@@ -4,7 +4,7 @@ body {
 }
 
 .text_header_font {
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -12,7 +12,7 @@ body {
 }
 
 .text_body_font {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -28,7 +28,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url("../img/mobile_logo.png");
+  background-image: url('../img/mobile_logo.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 100px;
@@ -61,6 +61,10 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+  .mobile-options {
+    display: none;
+  }
+
   .flex_container {
     width: 98.5vw;
   }
@@ -106,7 +110,7 @@ body {
   }
 
   .backgroundimage {
-    background-image: url("../img/index_pic.png");
+    background-image: url('../img/index_pic.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -144,7 +148,7 @@ body {
   }
 
   .shape_1 {
-    background-image: url("../img/Shape_10.png");
+    background-image: url('../img/Shape_10.png');
     background-repeat: no-repeat;
     background-size: contain;
     width: 45vw;
@@ -212,7 +216,7 @@ body {
   }
 
   .grid_5 {
-    background-image: url("../img/work_main_3.png");
+    background-image: url('../img/work_main_3.png');
     position: absolute;
     width: 30vw;
     height: 59vh;
@@ -516,7 +520,7 @@ body {
   }
 
   .contact_logo_shape {
-    background-image: url("../img/shape_main_4.png");
+    background-image: url('../img/shape_main_4.png');
     background-repeat: no-repeat;
     background-size: contain;
     width: 352px;
@@ -527,7 +531,7 @@ body {
   }
 
   .contact_logo_shape_2 {
-    background-image: url("../img/shape_main_5.png");
+    background-image: url('../img/shape_main_5.png');
     background-repeat: no-repeat;
     background-size: contain;
     width: 352px;
