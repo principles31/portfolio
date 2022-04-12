@@ -1,6 +1,9 @@
 @media all and (max-width: 500px) {
-
   /* contact_Section */
+  .click-icon {
+    transform: translateY(0);
+  }
+
   .contact_section {
     position: absolute;
     top: 4290px;

@@ -1,4 +1,7 @@
 /* Navigation bar */
+li {
+  list-style: none;
+}
 .flex_nav {
   align-items: center;
   padding: 50px;
@@ -24,34 +27,46 @@
   top: 19px;
 }
 
-.mobile_icon {
-  position: relative;
-  width: 20px;
-  height: 15px;
-  left: 280px;
-  top: 25px;
-
-  
+.img-before,
+.img-after {
+  width: 40px;
+  height: 40px;
+  position: absolute;
 }
 
-.mobile_menu_x {
-  position: relative;
-  width: 20px;
-  height: 15px;
-  left: 280px;
-  top: 5px;
-
+.img-before {
+  top: 10%;
+  right: 18%;
 }
 
-.nav_list {
-     /* display: none; 
-    position: fixed;
-    z-index: 900;
-    width: 70%;
-    left: 0;
-    top: 0;
-    background: #fff;
-    height: 80vh;  */
+.mobile_logo {
+  display: none;
+}
+
+.hamb,
+.close-icon {
+  position: absolute;
+  right: 3%;
+}
+
+.hamb {
+  top: 4%;
+}
+
+.close-icon {
+  top: 3%;
+}
+
+.mobile-options {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mobile-options li {
+  padding-bottom: 60px;
+  text-align: center;
+  margin-right: 28%;
 }
 
 .m_list {
@@ -63,10 +78,9 @@
   text-align: center;
   font-family: poppins, sans-serif;
   font-weight: 400;
-
 }
 .img-menu-1 {
-  background-image: url("./images/.img_menu_1png");
+  background-image: url('./images/.img_menu_1png');
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -77,7 +91,7 @@
 }
 
 .img-menu-2 {
-  background-image: url("./images/.img_menu_2 png");
+  background-image: url('./images/.img_menu_2 png');
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -85,9 +99,6 @@
   height: 176px;
   bottom: 0;
 }
-
-
-
 
 .bar {
   height: 4px;
@@ -130,7 +141,7 @@
     left: 0;
     top: 0;
     display: block;
-    background-image: url("../img/mobile_logo.png");
+    background-image: url('../img/mobile_logo.png');
     background-repeat: no-repeat;
     background-size: contain;
     width: 100px;
@@ -182,7 +193,7 @@
     height: 220px;
     top: 462px;
     left: 0;
-    background-image: url("../img/mobile_image.png");
+    background-image: url('../img/mobile_image.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -190,7 +201,7 @@
   }
 
   .text_header_font {
-    font-family: "Playfair Display", sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -198,7 +209,7 @@
   }
 
   .text_body_font {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -260,4 +271,9 @@
     font-size: large;
     line-height: 24px;
   }
+}
+
+/* styles for mobile menu */
+.click-icon {
+  transform: translateY(0);
 }

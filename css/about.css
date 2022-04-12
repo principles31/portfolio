@@ -1,6 +1,9 @@
 @media all and (max-width: 500px) {
-
   /* About Section */
+  .click-icon {
+    transform: translateY(0);
+  }
+
   .about_section {
     position: absolute;
     top: 2850px;
