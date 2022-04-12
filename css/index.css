@@ -16,27 +16,13 @@
   flex: 3;
 }
 
-.mobile-icons {
- 
-}
-
-.mobile-icons img {
-  position: relative;
-  left: 98%;
-}
-
-.mobile-icons .close {
-  position: relative;
-  left: 98%;
-  top: 2%; 
-}
-/* .toggleNav {
+.toggleNav {
   position: absolute;
   width: 20px;
   height: 14px;
   right: 284px;
   top: 19px;
-} */
+}
 
 .bar {
   height: 4px;
@@ -79,7 +65,7 @@
     left: 0;
     top: 0;
     display: block;
-    background-image: url('../img/mobile_logo.png');
+    background-image: url("../img/mobile_logo.png");
     background-repeat: no-repeat;
     background-size: contain;
     width: 100px;
@@ -87,12 +73,8 @@
   }
 
   .flex_nav ul {
-    display: flex;
     flex-direction: column;
-    height: 100vh;
-    position: fixed;
-    z-index: 999;
-    /* display: none; */
+    display: none;
   }
 
   .text_color {
@@ -135,7 +117,7 @@
     height: 220px;
     top: 462px;
     left: 0;
-    background-image: url('../img/mobile_image.png');
+    background-image: url("../img/mobile_image.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -143,7 +125,7 @@
   }
 
   .text_header_font {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -151,7 +133,7 @@
   }
 
   .text_body_font {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
