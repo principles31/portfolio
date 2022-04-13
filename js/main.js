@@ -8,8 +8,9 @@ const about = document.querySelector('#about_section');
 const contact = document.querySelector('#contact_section');
 const img1 = document.querySelector('.img-before');
 const img2 = document.querySelector('.img-after');
-const shape1=document.querySelector('.shape-1');
-const shape2=document.querySelector('.shape-2');
+const shape1 = document.querySelector('.shape-1');
+const shape2 = document.querySelector('.shape-2');
+const shape3 = document.querySelector('.shape-3');
 
 close.style.display = 'none';
 options.style.display = 'none';
@@ -22,8 +23,9 @@ const toggleOptions = () => {
     options.style.display = 'none';
     img1.style.display = 'none';
     img2.style.display = 'none';
-    shape1.style.display='none';
-    shape2.style.display='none';
+    shape1.style.display = 'none';
+    shape2.style.display = 'none';
+    shape3.style.display = 'none';
   } else {
     nav.classList.add('click-icon');
     close.style.display = 'block';
@@ -31,8 +33,10 @@ const toggleOptions = () => {
     options.style.display = 'block';
     img1.style.display = 'block';
     img2.style.display = 'block';
-    shape1.style.display='block';
-    shape2.style.display='block';
+    shape1.style.display = 'block';
+    shape2.style.display = 'block';
+    shape3.style.display = 'block';
+
   }
 };
 
