@@ -1,9 +1,14 @@
 
-# Portfolio: setup and mobile version skeleton
-> The goal of this project is to create the UI from the templates in Figma. 
-> The Works sections has been added to the project
+# Portfolio: Mobile Menu
+> The goal of this project is to implement the mobile menu using javascript.
 
-> About Section was added to the project
+> The following features has been implemented to the project.
+
+> When the user clicks (or taps) the hamburger button, the mobile menu appears.
+> When the user clicks (or taps) the close (X) button, the mobile menu disappears.
+> When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.
+> When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
+
 
 > Template 5 was used.
 > 
@@ -37,8 +42,9 @@
 ## Built With
 
 
-- html
-- css
+- Html
+- Css
+- Javascript
 
 ## Getting Started
 To get a local copy up and running,follow these simple steps
@@ -58,17 +64,15 @@ To get a local copy up and running,follow these simple steps
 
 ## Live demo
 
--  https://principles31.github.io/portfolio/
 
 
 ## 🤝 Contributing
 
-- Ali Jandoubi
-- Anthony Mwenyo
+- Obua Dennis Daniel
 
 ## Acknowledgments
 
 - Microverse
-- Icon 8 images
+- Obua Dennis Daniel
 
 
