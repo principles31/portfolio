@@ -2,7 +2,7 @@
 # Portfolio: Mobile Menu
 > The goal of this project is to implement the mobile menu using javascript.
 
-> The following features has been implemented to the project.
+> The following features have been implemented in the project.
 
 > When the user clicks (or taps) the hamburger button, the mobile menu appears.
 > When the user clicks (or taps) the close (X) button, the mobile menu disappears.
