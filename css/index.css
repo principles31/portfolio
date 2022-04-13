@@ -101,6 +101,13 @@ li {
   z-index: 990;
 }
 
+.shape-3 {
+  position: absolute;
+  width: 100vw;
+  top: 60%;
+
+}
+
 
 .img-menu-1 {
   background-image: url('./images/.img_menu_1png');
