@@ -1,7 +1,12 @@
 /* Navigation bar */
+a {
+  text-decoration: none;
+}
+
 li {
   list-style: none;
 }
+
 .flex_nav {
   align-items: center;
   padding: 50px;
@@ -36,7 +41,12 @@ li {
 
 .img-before {
   top: 10%;
-  right: 18%;
+  right: 20%;
+}
+
+.img-after {
+  top:50%;
+  left: 20%;
 }
 
 .mobile_logo {
@@ -64,7 +74,7 @@ li {
 }
 
 .mobile-options li {
-  padding-bottom: 60px;
+  padding-bottom: 5%;
   text-align: center;
   margin-right: 28%;
   font-size: 25px;
@@ -73,16 +83,25 @@ li {
   margin-top: 30px;
 }
 
-/* .m_list {
-  display: block;
-  margin: 5px;
-  width: 20px;
-  padding: 5px;
-  font-size: 21px;
-  text-align: center;
-  font-family: poppins, sans-serif;
-  font-weight: 400;
-} */
+.mobile-options li:first-child {
+  padding-top: 27%;
+}
+
+.shape-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 991;
+}
+
+.shape-2 {
+  position: absolute;
+  top: 0;
+  left: 9%;
+  z-index: 990;
+}
+
+
 .img-menu-1 {
   background-image: url('./images/.img_menu_1png');
   background-repeat: no-repeat;
