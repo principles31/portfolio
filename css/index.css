@@ -136,14 +136,14 @@ li {
 }
 
 /* Main section */
-.mobile_log {
+/* .mobile_log {
   display: none;
-}
+} */
 
 @media all and (max-width: 500px) {
   body {
-    margin: 0;
-    width: 99vw;
+    margin: 10px;
+    width: 100vw;
   }
 
   .flex_container {
@@ -169,7 +169,7 @@ li {
     position: absolute;
     left: 0;
     top: 0;
-    display: block;
+    display: none;
     background-image: url('../img/mobile_logo.png');
     background-repeat: no-repeat;
     background-size: contain;
