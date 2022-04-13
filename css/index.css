@@ -105,9 +105,9 @@ li {
   position: absolute;
   width: 100vw;
   top: 60%;
+  left: 0;
 
 }
-
 
 .img-menu-1 {
   background-image: url('./images/.img_menu_1png');
@@ -137,7 +137,7 @@ li {
 }
 
 /* Main section */
-.mobile_logo {
+.mobile_log  {
   display: none;
 }
 
