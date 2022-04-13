@@ -1,5 +1,5 @@
 const nav = document.querySelector('nav');
-const mobile_icons = document.querySelector('.mobile-icons');
+const mobileIcons = document.querySelector('.mobile-icons');
 const hamb = document.querySelector('.hamb');
 const close = document.querySelector('.close-icon');
 const options = document.querySelector('.mobile-options');
@@ -36,11 +36,10 @@ const toggleOptions = () => {
     shape1.style.display = 'block';
     shape2.style.display = 'block';
     shape3.style.display = 'block';
-
   }
 };
 
-mobile_icons.addEventListener('click', toggleOptions);
+mobileIcons.addEventListener('click', toggleOptions);
 projects.addEventListener('click', toggleOptions);
 about.addEventListener('click', toggleOptions);
 contact.addEventListener('click', toggleOptions);
