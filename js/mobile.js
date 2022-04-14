@@ -3,10 +3,12 @@ const btn = document.getElementById('navbar_modal');
 const flexUl = document.getElementsByClassName('flex_ul')[0];
 const span = document.getElementsByClassName('close')[0];
 
-btn.addEventListener('click', function showmodal() {
+function showmodal() {
   modal.style.display = 'block';
   flexUl.style.display = 'block';
-});
+}
+
+btn.addEventListener('click', showmodal);
 
 function hideModal() {
   modal.style.display = 'none';
