@@ -1,6 +1,7 @@
 @media all and (max-width: 500px) {
 
   /* work section css */
+  
   .works_section {
     position: absolute;
     top: 650px;
@@ -79,7 +80,7 @@
     margin-bottom: -10px;
   }
 
-  .list_category > li {
+  .list_category>li {
     background-color: #98dede;
     margin: 10px;
     font-size: 15px;
@@ -104,7 +105,7 @@
     align-items: center;
   }
 
-  .project_click_class > p {
+  .project_click_class>p {
     width: 124px;
     height: 24px;
     font-size: 16px;

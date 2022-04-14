@@ -11,14 +11,15 @@ btn.addEventListener('click', function () {
   event.preventDefault();
 });
 
+flex_ul.addEventListener("click", function () {
+  modal.style.display = "none";
+  flex_ul.style.display = "none";
+});
+
+
+
+
 span.onclick = function () {
   modal.style.display = 'none';
   flex_ul.style.display = 'none';
-};
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = 'none';
-    flex_ul.style.display = 'none';
-  }
 };
