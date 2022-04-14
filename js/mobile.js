@@ -1,20 +1,17 @@
-let modal = document.getElementById('myModal');
-let btn = document.getElementById('navbar_modal');
-let flex_ul = document.getElementsByClassName('flex_ul')[0];
-let span = document.getElementsByClassName('close')[0];
+const modal = document.getElementById('myModal');
+const btn = document.getElementById('navbar_modal');
+const flexUl = document.getElementsByClassName('flex_ul')[0];
+const span = document.getElementsByClassName('close')[0];
 
-btn.addEventListener('click', function () {
+btn.addEventListener('click', function showmodal() {
   modal.style.display = 'block';
-  flex_ul.style.display = 'block';
-  event.preventDefault();
+  flexUl.style.display = 'block';
 });
 
-flex_ul.addEventListener("click", function () {
-  modal.style.display = "none";
-  flex_ul.style.display = "none";
-});
-
-span.onclick = function () {
+function hideModal() {
   modal.style.display = 'none';
-  flex_ul.style.display = 'none';
-};
+  flexUl.style.display = 'none';
+}
+
+flexUl.addEventListener('click', hideModal);
+span.addEventListener('click', hideModal);
