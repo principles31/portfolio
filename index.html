@@ -1,338 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mens Portfolio</title>
 
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/works.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/works.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/desktop.css" />
+  </head>
 
-  
-      
-</head>
-
-<body>
-
-   
-
+  <body>
     <div class="flex_container">
-        <header>
-            <div class="mobile_logo"></div>
-                <nav class="flex_nav  text_body_font text_color">
-                    <a id="navbar_modal" href="" class="toggleNav mobile_off">
-                        <div class="bar"></div>
-                        <div class="bar"></div>
-                        <div class="bar"></div>
-                    </a>
+      <header>
+        <div class="mobile_logo"></div>
+        <nav class="flex_nav text_body_font text_color">
+          <a id="navbar_modal" href="" class="toggleNav mobile_off">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </a>
 
-
-                    
-
-                    <div id="myModal" class="modal mobile_off">
-                        <img class="mobile_logo_nav" src="img/img_menu_1.png" alt="">
-                        <span class="close">&times;</span>
-                        <img class = "md_image" src="img/img-after.svg" alt="">
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                       
-                        <ul class="flex_ul">
-                            <li class="li_first text_body_font"><a href="#">Hello</a></li>
-                            <li class="text_body_font"><a href="#">Portfolio</a></li>
-                            <li class="text_body_font"><a href="#">About</a></li>
-                            <li class="text_body_font"><a href="#">Contact</a></li>
-                        </ul>
-                       
-                        </div>
-                        <img class = "md_image_2" src="img/img-after.svg" alt="">
-                        <img class="img_menu" src="img/img_menu_2.png" alt="">
-
-                    </div>
-
-                    
-                        
-                        
-                    
-                    
-                </nav>
-        </header>
-
-        
-        <div class="grid_container_work">
-        <section  class="grid_item_work">
-            <div class="section_div">
-                <div class="section_div_1">
-                    <div class="text_class text_color text_header_font">
-                        <h1>Emmanuel Mensah</h1>
-                    </div>
-                    <div class="text_subject text_color text_body_font">
-                        <p>
-                            Hello!I am a software developer! I can
-                            help you build a product, feature or website.
-                            Take a look of my works. If you like what you see
-                            and have a project you need coded, don't hesitate
-                            and contact me.
-                        </p>
-                    </div>
-                    <div class="text_button text_body_font">
-                        <p>Start Collaboration</p>
-                    </div>
-
-                </div>
-                <div class="backgroundimage"> </div>
-
+          <div id="myModal" class="modal mobile_off">
+            <img class="mobile_logo_nav" src="img/img_menu_1.png" alt="" />
+            <span class="close">&times;</span>
+            <img class="md_image" src="img/img-after.svg" alt="" />
+            <!-- Modal content -->
+            <div class="modal-content">
+              <ul class="flex_ul">
+                <li class="li_first text_body_font" id="#hello">
+                  <a href="#">Hello</a>
+                </li>
+                <li class="text_body_font">
+                  <a href="#" id="#works_section">Portfolio</a>
+                </li>
+                <li class="text_body_font">
+                  <a href="#" id="#about_section">About</a>
+                </li>
+                <li class="text_body_font">
+                  <a href="#" id="#contact_section">Contact</a>
+                </li>
+              </ul>
             </div>
+            <img class="md_image_2" src="img/img-after.svg" alt="" />
+            <img class="img_menu" src="img/img_menu_2.png" alt="" />
+          </div>
+        </nav>
+      </header>
 
-            <div class="mobile_image"></div>
+      <div class="grid_container_work">
+        <section class="grid_item_work" id="hello">
+          <div class="section_div">
+            <div class="section_div_1">
+              <div class="text_class text_color text_header_font">
+                <h1>Emmanuel Mensah</h1>
+              </div>
+              <div class="text_subject text_color text_body_font">
+                <p>
+                  Hello!I am a software developer! I can help you build a
+                  product, feature or website. Take a look of my works. If you
+                  like what you see and have a project you need coded, don't
+                  hesitate and contact me.
+                </p>
+              </div>
+              <div class="text_button text_body_font">
+                <p>Start Collaboration</p>
+              </div>
+            </div>
+            <div class="backgroundimage"></div>
+          </div>
+
+          <div class="mobile_image"></div>
         </section>
 
-        
-            <div class="grid_item_work grid_2_item">
-                <!-- work section  -->
-                <section class="works_section">
-                    <div class="project_text text_color text_header_font project_text_d">
-                        <h2>Projects</h2>
-                    </div>
-                    <div class="work_container">
-                        <div class="grid_1 grid_picture"></div>
-                        <div class="grid_row">
-                            <p class="pro_text text_body_font">Tonic</p>
-                            <ul class="list_category text_body_font">
-                                <li>Html</li>
-                                <li>CSS</li>
-                                <li>Javascript</li>
-                            </ul>
-                            <a class="project_click_class text_body_font">
-                                <p> See this project</p>
-                                <div class="arrow_key"></div>
-                            </a>
-                        </div>
-
-                        <div class="grid_2 grid_picture">
-                            <img src="img/work_main_2.png" alt="" class="image_hide">
-                            <!-- <div class="shape_1"> </div> -->
-                        </div>
-                        <div class="grid_row alternaterow">
-                            <p class="pro_text text_body_font">Multi-Post Stories</p>
-                            <ul class="list_category text_body_font">
-                                <li>Html</li>
-                                <li>CSS</li>
-                                <li>Javascript</li>
-                            </ul>
-                            <a class="project_click_class text_body_font">
-                                <p> See this project</p>
-                                <div class="arrow_key"></div>
-                            </a>
-                        </div>
-
-                        <div class="grid_3 grid_picture mobile_off"></div>
-                        <div class="grid_row mobile_off">
-                            <p class="pro_text text_body_font">Tonic</p>
-                            <ul class="list_category text_body_font">
-                                <li>Html</li>
-                                <li>CSS</li>
-                                <li>Javascript</li>
-                            </ul>
-                            <a class="project_click_class text_body_font">
-                                <p> See this project</p>
-                                <div class="arrow_key"></div>
-                            </a>
-                        </div>
-
-                        <div class="grid_4 grid_picture">
-                        </div>
-                        <div class="grid_row mobile_off">
-                            <p class="pro_text text_body_font">Multi-Post Stories</p>
-                            <ul class="list_category text_body_font">
-                                <li>Html</li>
-                                <li>CSS</li>
-                                <li>Javascript</li>
-                            </ul>
-                            <a class="project_click_class text_body_font">
-                                <p> See this project</p>
-                                <div class="arrow_key"></div>
-                            </a>
-                        </div>
-
-                        <div class="grid_5 grid_picture"></div>
-                        <div class="grid_row mobile_off">
-                            <p class="pro_text text_body_font">Tonic</p>
-                            <ul class="list_category text_body_font">
-                                <li>Html</li>
-                                <li>CSS</li>
-                                <li>Javascript</li>
-                            </ul>
-                            <a class="project_click_class text_body_font">
-                                <p> See this project</p>
-                                <div class="arrow_key"></div>
-                            </a>
-                        </div>
-
-                        <div class="grid_6 grid_picture mobile_off"></div>
-                        <div class="grid_row mobile_off">
-                            <p class="pro_text text_body_font">Multi-Post Stories</p>
-                            <ul class="list_category text_body_font">
-                                <li>Html</li>
-                                <li>CSS</li>
-                                <li>Javascript</li>
-                            </ul>
-                            <a class="project_click_class text_body_font">
-                                <p> See this project</p>
-                                <div class="arrow_key"></div>
-                            </a>
-                        </div>
-                    </div>
-                </section>
+        <div class="grid_item_work grid_2_item" id="works_section">
+          <!-- work section  -->
+          <section class="works_section">
+            <div
+              class="project_text text_color text_header_font project_text_d"
+            >
+              <h2>Projects</h2>
             </div>
-            <div class="grid_item_work">
-                <!-- about section  -->
-                <section class="about_section">
-                    <div class="order_2">
-                        <div class="project_text text_color text_header_font">
-                            <h2>About</h2>
-                        </div>
-                        <div class="text_subject text_color text_body_font about_text">
-                            <p>
-                                Hello!I am a software developer! I can
-                                help you build a product, feature or website.
-                                Take a look of my works. If you like what you see
-                                and have a project you need coded, don't hesitate
-                                and contact me.
-                            </p>
-                        </div>
+            <div class="work_container">
+              <div class="grid_1 grid_picture"></div>
+              <div class="grid_row">
+                <p class="pro_text text_body_font">Tonic</p>
+                <ul class="list_category text_body_font">
+                  <li>Html</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+                <a class="project_click_class text_body_font">
+                  <p>See this project</p>
+                  <div class="arrow_key"></div>
+                </a>
+              </div>
 
-                        <a class="text_button text_body_font about_button">
-                            <p> Get my CV</p>
-                            <div class="download_image"></div>
-                        </a>
-                    </div>
+              <div class="grid_2 grid_picture">
+                <img src="img/work_main_2.png" alt="" class="image_hide" />
+                <!-- <div class="shape_1"> </div> -->
+              </div>
+              <div class="grid_row alternaterow">
+                <p class="pro_text text_body_font">Multi-Post Stories</p>
+                <ul class="list_category text_body_font">
+                  <li>Html</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+                <a class="project_click_class text_body_font">
+                  <p>See this project</p>
+                  <div class="arrow_key"></div>
+                </a>
+              </div>
 
+              <div class="grid_3 grid_picture mobile_off"></div>
+              <div class="grid_row mobile_off">
+                <p class="pro_text text_body_font">Tonic</p>
+                <ul class="list_category text_body_font">
+                  <li>Html</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+                <a class="project_click_class text_body_font">
+                  <p>See this project</p>
+                  <div class="arrow_key"></div>
+                </a>
+              </div>
 
-                    <div class="about_container">
-                        <div class="about_row about_row_1">
-                            <ul class="skill_set text_body_font">
-                                <li class="about_skills"> Languages </li>
-                                <li class="li_class"> CSS</li>
-                                <li class="li_class"> Html</li>
+              <div class="grid_4 grid_picture"></div>
+              <div class="grid_row mobile_off">
+                <p class="pro_text text_body_font">Multi-Post Stories</p>
+                <ul class="list_category text_body_font">
+                  <li>Html</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+                <a class="project_click_class text_body_font">
+                  <p>See this project</p>
+                  <div class="arrow_key"></div>
+                </a>
+              </div>
 
-                            </ul>
-                            <div class="about_img about_img_1"></div>
-                        </div>
-                        <div class="about_row about_row_2">
-                            <ul class="skill_set">
-                                <li class="about_skills text_body_font"> Frameworks </li>
+              <div class="grid_5 grid_picture"></div>
+              <div class="grid_row mobile_off">
+                <p class="pro_text text_body_font">Tonic</p>
+                <ul class="list_category text_body_font">
+                  <li>Html</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+                <a class="project_click_class text_body_font">
+                  <p>See this project</p>
+                  <div class="arrow_key"></div>
+                </a>
+              </div>
 
-                                <li class="li_class"> CSS</li>
-                                <li class="li_class"> Html</li>
-                            </ul>
-                            <div class="about_img about_img_2"></div>
-                        </div>
-                        <div class="about_row about_row_3">
-                            <ul class="skill_set">
-                                <li class="about_skills text_body_font"> Skills </li>
-                                <li class="li_class"> Github</li>
-                                <li class="li_class"> Terminal</li>
-                            </ul>
-                            <div class="about_img about_img_3"></div>
-                        </div>
-                    </div>
-
-                </section>
+              <div class="grid_6 grid_picture mobile_off"></div>
+              <div class="grid_row mobile_off">
+                <p class="pro_text text_body_font">Multi-Post Stories</p>
+                <ul class="list_category text_body_font">
+                  <li>Html</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+                <a class="project_click_class text_body_font">
+                  <p>See this project</p>
+                  <div class="arrow_key"></div>
+                </a>
+              </div>
             </div>
+          </section>
         </div>
+        <div class="grid_item_work">
+          <!-- about section  -->
+          <section class="about_section" id="about_section">
+            <div class="order_2">
+              <div class="project_text text_color text_header_font">
+                <h2>About</h2>
+              </div>
+              <div class="text_subject text_color text_body_font about_text">
+                <p>
+                  Hello!I am a software developer! I can help you build a
+                  product, feature or website. Take a look of my works. If you
+                  like what you see and have a project you need coded, don't
+                  hesitate and contact me.
+                </p>
+              </div>
 
-
-
-
-
-        <!-- foooter  -->
-        <footer class="contact_section">
-            
-            
-
-            <div class="footer_div">
-
-
-
-
-               
-
-                <div class="contact_flex">
-                    
-                    <div class="contact_logo_shape"></div>
-                  
-                    
-
-                    <div class="contact_div">
-                        <div class="c_div">
-                            <h4 class="title-contact text_header_font">Get Started</h4>
-
-                        <p class="section-desc text_body_font">
-                            Hello!I am a software developer! I can
-                            help you build a product, feature or website.
-                            Take a look of my works. If you like what you see
-                            and have a project you need coded, don't hesitate
-                            and contact me.
-                        </p>
-                        <form action="https://formspree.io/f/mzbovllg" method="post">
-                            <input type="text" name="FullName" placeholder="Enter Your Name" maxlength="30" required>
-                            <input type="email" name="Email" placeholder="Enter Your Email" required>
-                            <textarea name="Message" placeholder="Enter Your Message" maxlength="500" required></textarea>
-                            <button class="" type="submit" name="submit-btn">Start collaboration</button>
-                        </form>
-                        </div>
-                        
-                    </div>
-                    
-            
-                    <div class="contact_logo_shape_2"></div>
-                    
-                </div>
-
-                
-
-                <div class="bottom_row">
-                    <div class="get_cv">
-                        <a class="text-button text_body_font resume_color">
-                            <p class="arrow_upload">Get my Resume</p>
-                            <div></div>
-                        </a>
-                    </div>
-
-
-                    <div class="divicon">
-                        <ul class="sociallist">
-                            <li class="sociallist_link"><a href="#"><img src="img/twitter.png" alt="twitter"></a></li>
-                            <li class="sociallist_link"><a href="#"><img src="img/linkdin.png" alt="linkdin"></a></li>
-                            <li class="sociallist_link"><a href="#"><img src="img/medium.png" alt="medium"></a></li>
-                            <li class="sociallist_link"><a href="#"><img src="img/github.png" alt="github"></a></li>
-
-                        </ul>
-                    </div>
-
-                </div>
-
+              <a class="text_button text_body_font about_button">
+                <p>Get my CV</p>
+                <div class="download_image"></div>
+              </a>
             </div>
 
+            <div class="about_container">
+              <div class="about_row about_row_1">
+                <ul class="skill_set text_body_font">
+                  <li class="about_skills">Languages</li>
+                  <li class="li_class">CSS</li>
+                  <li class="li_class">Html</li>
+                </ul>
+                <div class="about_img about_img_1"></div>
+              </div>
+              <div class="about_row about_row_2">
+                <ul class="skill_set">
+                  <li class="about_skills text_body_font">Frameworks</li>
 
-        </footer>
+                  <li class="li_class">CSS</li>
+                  <li class="li_class">Html</li>
+                </ul>
+                <div class="about_img about_img_2"></div>
+              </div>
+              <div class="about_row about_row_3">
+                <ul class="skill_set">
+                  <li class="about_skills text_body_font">Skills</li>
+                  <li class="li_class">Github</li>
+                  <li class="li_class">Terminal</li>
+                </ul>
+                <div class="about_img about_img_3"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
 
+      <!-- foooter  -->
+      <footer class="contact_section" id="contact_section">
+        <div class="footer_div">
+          <div class="contact_flex">
+            <div class="contact_logo_shape"></div>
 
+            <div class="contact_div">
+              <div class="c_div">
+                <h4 class="title-contact text_header_font">Get Started</h4>
 
+                <p class="section-desc text_body_font">
+                  Hello!I am a software developer! I can help you build a
+                  product, feature or website. Take a look of my works. If you
+                  like what you see and have a project you need coded, don't
+                  hesitate and contact me.
+                </p>
+                <form action="https://formspree.io/f/mzbovllg" method="post">
+                  <input
+                    type="text"
+                    name="FullName"
+                    placeholder="Enter Your Name"
+                    maxlength="30"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="Email"
+                    placeholder="Enter Your Email"
+                    required
+                  />
+                  <textarea
+                    name="Message"
+                    placeholder="Enter Your Message"
+                    maxlength="500"
+                    required
+                  ></textarea>
+                  <button class="" type="submit" name="submit-btn">
+                    Start collaboration
+                  </button>
+                </form>
+              </div>
+            </div>
 
+            <div class="contact_logo_shape_2"></div>
+          </div>
 
+          <div class="bottom_row">
+            <div class="get_cv">
+              <a class="text-button text_body_font resume_color">
+                <p class="arrow_upload">Get my Resume</p>
+                <div></div>
+              </a>
+            </div>
 
-
+            <div class="divicon">
+              <ul class="sociallist">
+                <li class="sociallist_link">
+                  <a href="#"><img src="img/twitter.png" alt="twitter" /></a>
+                </li>
+                <li class="sociallist_link">
+                  <a href="#"><img src="img/linkdin.png" alt="linkdin" /></a>
+                </li>
+                <li class="sociallist_link">
+                  <a href="#"><img src="img/medium.png" alt="medium" /></a>
+                </li>
+                <li class="sociallist_link">
+                  <a href="#"><img src="img/github.png" alt="github" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
-
-  
-  <script src="js/mobile.js"></script>
-</body>
-
+    <script src="js/mobile.js"></script>
+  </body>
 </html>
