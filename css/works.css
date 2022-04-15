@@ -5,6 +5,10 @@
     width: 95vw;
   }
 
+  .image_hide {
+    display: none;
+  }
+
   .project_text {
     position: absolute;
     width: 181px;

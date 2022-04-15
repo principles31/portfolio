@@ -10,6 +10,7 @@
   margin: 0;
   padding: 0;
   display: flex;
+  display: none;
 }
 
 .flex_nav li {
@@ -36,11 +37,6 @@
 }
 
 @media all and (max-width: 500px) {
-  body {
-    margin: 0;
-    width: 99vw;
-  }
-
   .flex_container {
     height: 4910px;
     background: #fff;
@@ -65,7 +61,7 @@
     left: 0;
     top: 0;
     display: block;
-    background-image: url("../img/mobile_logo.png");
+    background-image: url('../img/mobile_logo.png');
     background-repeat: no-repeat;
     background-size: contain;
     width: 100px;
@@ -75,6 +71,20 @@
   .flex_nav ul {
     flex-direction: column;
     display: none;
+    text-align: center;
+  }
+
+  .flex_nav li {
+    margin: 30px;
+    color: #000;
+  }
+
+  .flex_nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px;
   }
 
   .text_color {
@@ -117,15 +127,15 @@
     height: 220px;
     top: 462px;
     left: 0;
-    background-image: url("../img/mobile_image.png");
+    background-image: url('../img/mobile_image.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    width: 98vw;
+    width: 96vw;
   }
 
   .text_header_font {
-    font-family: "Playfair Display", sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -133,7 +143,7 @@
   }
 
   .text_body_font {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -194,5 +204,60 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     line-height: 24px;
+  }
+
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+  }
+
+  .close {
+    color: #000;
+    float: right;
+    font-size: 58px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .img_menu {
+    width: 85vw;
+    height: 14vh;
+    margin: 30px;
+  }
+
+  .md_image {
+    float: right;
+    margin-top: 100px;
+    margin-right: 30px;
+    width: 70px;
+  }
+
+  .md_image_2 {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 70px;
   }
 }
