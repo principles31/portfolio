@@ -1,0 +1,46 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.popup_window {
+  min-width: 320px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 5%;
+  right: 6%;
+}
+
+.popup_window h3 {
+  color: #1a2236;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 80%;
+  padding-top: 15%;
+  padding-left: 2%;
+}
+
+.popup_window ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 15%;
+}
+
+.popup_window li {
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+  padding: 6px 10px;
+  border: 1px solid #1a2236;
+  margin: 0 5px;
+}
+
+.window-logo {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+}
