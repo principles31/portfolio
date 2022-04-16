@@ -75,11 +75,13 @@ const projectlist1 = [{
 let count = 0;
 function projectloop(prlist) {
   document.getElementsByClassName('pr')[count].textContent = prlist.name;
-  let ht, cs, jst = prlist['technologies'];
+  let ht, cs, jst;
+  [ht, cs, jst] = prlist['technologies'];
   document.getElementsByClassName('htm')[count].textContent = ht;
   document.getElementsByClassName('cs')[count].textContent = cs;
   document.getElementsByClassName('jvt')[count].textContent = jst;
-  document.getElementsByClassName('g_p')[count].style.backgroundImage = 'url(${prlist.featured_image})';
+  let pc = 'url('.concat(prlist.featured_image,')');
+  document.getElementsByClassName('g_p')[count].style.backgroundImage = pc;
   count += 1;
 }
 
