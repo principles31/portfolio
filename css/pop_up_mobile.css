@@ -6,7 +6,7 @@
 
   .project_grid_row {
     text-align: center;
-    margin: 0 15px 0px 10px;
+    margin: 0 15px 0 10px;
   }
 
   .project_header {
@@ -45,7 +45,6 @@
     margin: 15px 25px;
   }
 
-  .project_click_modal:hover,
   .project_click_modal:hover {
     background-color: rgba(53, 53, 48, 0.486);
   }
@@ -73,7 +72,6 @@
     height: 20px;
   }
 
-
   .project_click_modal > p {
     width: 124px;
     height: 24px;
@@ -100,12 +98,10 @@
 
   .grid_img_3 {
     height: 250px;
-    ;
   }
 
   .grid_img_2 {
     margin-bottom: 20px;
-    ;
   }
 
   #projects_modal {
@@ -127,8 +123,7 @@
     line-height: 25px;
   }
 
-
-  /* Next & previous buttons */
+/* Next & previous buttons */
   .prev,
   .next {
     color: #fff;
@@ -160,5 +155,4 @@
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
-
 }

@@ -35,13 +35,17 @@ body {
   height: 100px;
 }
 
-.project_click_class:hover .about_button:hover .text_button:hover{
+.project_click_class:hover,
+.about_button:hover,
+.text_button:hover{
   background-color: #fff;
-}
+ }
 
-.project_click_class:active .about_button:active .text_button:active{
+.project_click_class:active,
+.about_button:active,
+.text_button:active{
   background-color: #fff;
-}
+ }
 
 .flex_nav > ul > li > a {
   text-decoration-line: none;
@@ -93,7 +97,7 @@ body {
 
   .image_hide{
     display: block;
-  }
+   }
 
   .section_div {
     display: flex;
