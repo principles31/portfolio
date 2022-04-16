@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .popup_window {
@@ -41,6 +41,8 @@ body {
 
 .window-logo {
   display: block;
-  width: 500px;
+  width: 100%;
+  top: 15px;
   margin: 0 auto;
+
 }
