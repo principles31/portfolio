@@ -23,7 +23,6 @@ function hideModal() {
 flexUl.addEventListener('click', hideModal);
 span.addEventListener('click', hideModal);
 
-
 function projectshowmodal(e) {
   projectModal.style.display = 'block';
   e.preventDefault();
@@ -34,8 +33,7 @@ function projecthidemodal(e) {
   e.preventDefault();
 }
 
-projectLink.forEach(function (pl) {
+projectLink.forEach(function plfunction(pl) {
   pl.addEventListener('click', projectshowmodal);
 });
 close2.addEventListener('click', projecthidemodal);
-
