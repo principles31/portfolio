@@ -54,7 +54,8 @@ const projectlist1 = [{
   technologies: ['Html', 'CSS', 'Javascript'],
   link_to_source: 'https://github.com/principles31/portfolio/tree/portfolio_popup_window',
   link_to_live: 'https://principles31.github.io/portfolio/',
-},{
+},
+{
   name: 'Tonic',
   description: 'Take a look of my works. If you like what you see and have a project you need coded',
   featured_image: 'img/work_5.png',
@@ -69,20 +70,16 @@ const projectlist1 = [{
   technologies:['Html', 'CSS', 'Javascript'],
   link_to_source:'https://github.com/principles31/portfolio/tree/portfolio_popup_window',
   link_to_live:'https://principles31.github.io/portfolio/',
-}]
+}];
 
 let count = 0;
 function projectloop(prlist){
   document.getElementsByClassName('pr')[count].textContent = prlist.name;
-  document.getElementsByClassName('htm')[count].textContent = prlist.technologies[0];
+  document.getElementsByClassName('htm')[count].textContent = prlist.technologies.0;
   document.getElementsByClassName('cs')[count].textContent = prlist.technologies[1];
   document.getElementsByClassName('jvt')[count].textContent = prlist.technologies[2];
-  document.getElementsByClassName('g_p')[count].style.backgroundImage = 'url(' + prlist.featured_image +')';
+  document.getElementsByClassName('g_p')[count].style.backgroundImage = 'url(' + prlist.featured_image + ')';
   count += 1;
-}
-
-function plfunction(pl) {
-  pl.addEventListener('click', projectshowmodal);
 }
 
 function projectshowmodal() {
@@ -97,14 +94,16 @@ projectlist1.forEach(projectloop);
 projectLink.forEach(plfunction);
 close2.addEventListener('click', projecthidemodal);
 
-
+function plfunction(pl) {
+  pl.addEventListener('click', projectshowmodal);
+}
 
 const form  = document.getElementsByTagName('form')[0];
 const email = document.getElementById('email');
-const errormsg = document.getElementsByClassName('error_msg')[0];
+const errorMsg = document.getElementsByClassName('error_msg')[0];
 function validateemail (event){
-  emailstr = (email.value).split('@')[0];
-  if (emailstr != emailstr.toLowerCase()){
+  let emailstr = (email.value).split('@')[0];
+  if (emailstr !== emailstr.toLowerCase()){
     errorMsg.style.display = 'block';
     event.preventDefault();
   }
