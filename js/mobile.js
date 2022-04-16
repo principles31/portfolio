@@ -78,7 +78,8 @@ function projectloop(prlist) {
   document.getElementsByClassName('htm')[count].textContent = prlist['technologies'][0];
   document.getElementsByClassName('cs')[count].textContent = prlist['technologies'][1];
   document.getElementsByClassName('jvt')[count].textContent = prlist['technologies'][2];
-  document.getElementsByClassName('g_p')[count].style.backgroundImage = 'url(' + prlist.featured_image + ')';
+  ur
+  document.getElementsByClassName('g_p')[count].style.backgroundImage = 'url(', ${prlist.featured_image}, ')';
   count += 1;
 }
 
@@ -101,7 +102,7 @@ close2.addEventListener('click', projecthidemodal);
 const form = document.getElementsByTagName('form')[0];
 const email = document.getElementById('email');
 const errorMsg = document.getElementsByClassName('error_msg')[0];
-function validateemail (event){
+function validateemail(event) {
   const emailstr = (email.value).split('@')[0];
   if (emailstr !== emailstr.toLowerCase()) {
     errorMsg.style.display = 'block';
