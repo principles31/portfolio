@@ -35,7 +35,7 @@ function projecthidemodal(e) {
 
 function plfunction(pl) {
   pl.addEventListener('click', projectshowmodal);
-};
+}
 
 projectLink.forEach(plfunction);
 close2.addEventListener('click', projecthidemodal);
