@@ -91,7 +91,7 @@ function projectshowmodal() {
 }
 
 function plfunction(e) {
-  const prnum = parseInt(e.currentTarget.id, 0);
+  const prnum = parseInt(e.currentTarget.id, 2);
   const prchoose = projectlist1[prnum];
   document.getElementsByClassName('m_header')[0].textContent = prchoose.name;
   let ht = 0;
