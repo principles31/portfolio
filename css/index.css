@@ -43,7 +43,7 @@
 .error_msg {
   display: none;
   color: #f00;
-  align-self:center;
+  align-self: center;
 }
 
 @media all and (max-width: 500px) {
