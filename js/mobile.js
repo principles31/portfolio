@@ -76,8 +76,8 @@ let count = 0;
 function projectloop(prlist) {
   document.getElementsByClassName('pr')[count].textContent = prlist['name'];
   document.getElementsByClassName('htm')[count].textContent = prlist['technologies'][0];
-  document.getElementsByClassName('cs')[count].textContent = prlist.['technologies'][1];
-  document.getElementsByClassName('jvt')[count].textContent = prlist.['technologies'][2];
+  document.getElementsByClassName('cs')[count].textContent = prlist['technologies'][1];
+  document.getElementsByClassName('jvt')[count].textContent = prlist['technologies'][2];
   document.getElementsByClassName('g_p')[count].style.backgroundImage = 'url(' + prlist.featured_image + ')';
   count = count + 1;
 }
