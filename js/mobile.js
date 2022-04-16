@@ -24,50 +24,50 @@ flexUl.addEventListener('click', hideModal);
 span.addEventListener('click', hideModal);
 
 const projectlist1 = [{
-  name:'Tonic',
-  description:'Take a look of my works. If you like what you see and have a project you need coded',
-  featured_image:'img/work_1.png',
-  technologies:['Html','CSS','Javascript'],
-  link_to_source:'',
-  link_to_live:'' 
+ name:'Tonic',
+ description:'Take a look of my works. If you like what you see and have a project you need coded',
+ featured_image:'img/work_1.png',
+ technologies:['Html','CSS','Javascript'],
+ link_to_source:'',
+ link_to_live:'' 
 },
 {
-  name:'Multi-Post Stories',
-  description:'Take a look of my works. If you like what you see and have a project you need coded',
-  featured_image:'img/work_2.png',
-  technologies:['Html','CSS','Javascript'],
-  link_to_source:'https://github.com/principles31/portfolio/tree/portfolio_popup_window',
-  link_to_live:'https://principles31.github.io/portfolio/'  
+ name:'Multi-Post Stories',
+ description:'Take a look of my works. If you like what you see and have a project you need coded',
+ featured_image:'img/work_2.png',
+ technologies:['Html','CSS','Javascript'],
+ link_to_source:'https://github.com/principles31/portfolio/tree/portfolio_popup_window',
+ link_to_live:'https://principles31.github.io/portfolio/'  
 },{
-  name:'Tonic',
-  description:'Take a look of my works. If you like what you see and have a project you need coded',
-  featured_image:'img/work_3.png',
-  technologies:['Html','CSS','Javascript'],
-  link_to_source:'https://github.com/principles31/portfolio/tree/portfolio_popup_window',
-  link_to_live:'https://principles31.github.io/portfolio/' 
+ name:'Tonic',
+ description:'Take a look of my works. If you like what you see and have a project you need coded',
+ featured_image:'img/work_3.png',
+ technologies:['Html','CSS','Javascript'],
+ link_to_source:'https://github.com/principles31/portfolio/tree/portfolio_popup_window',
+ link_to_live:'https://principles31.github.io/portfolio/' 
 },
 {
-  name:'Multi-Post Stories',
-  description:'Take a look of my works. If you like what you see and have a project you need coded',
-  featured_image:'img/work_4.png',
-  technologies:['Html','CSS','Javascript'],
-  link_to_source:'https://github.com/principles31/portfolio/tree/portfolio_popup_window',
-  link_to_live:'https://principles31.github.io/portfolio/' 
+ name:'Multi-Post Stories',
+ description:'Take a look of my works. If you like what you see and have a project you need coded',
+ featured_image:'img/work_4.png',
+ technologies:['Html','CSS','Javascript'],
+ link_to_source:'https://github.com/principles31/portfolio/tree/portfolio_popup_window',
+ link_to_live:'https://principles31.github.io/portfolio/' 
 },{
-  name:'Tonic',
-  description:'Take a look of my works. If you like what you see and have a project you need coded',
-  featured_image:'img/work_5.png',
-  technologies:['Html','CSS','Javascript'],
-  link_to_source:'https://github.com/principles31/portfolio/tree/portfolio_popup_window',
-  link_to_live:'https://principles31.github.io/portfolio/' 
+ name:'Tonic',
+ description:'Take a look of my works. If you like what you see and have a project you need coded',
+ featured_image:'img/work_5.png',
+ technologies:['Html','CSS','Javascript'],
+ link_to_source:'https://github.com/principles31/portfolio/tree/portfolio_popup_window',
+ link_to_live:'https://principles31.github.io/portfolio/' 
 },
 {
-  name:'Multi-Post Stories',
-  description:'Take a look of my works. If you like what you see and have a project you need coded',
-  featured_image:'img/work_6.png',
-  technologies:['Html','CSS','Javascript'],
-  link_to_source:'https://github.com/principles31/portfolio/tree/portfolio_popup_window',
-  link_to_live:'https://principles31.github.io/portfolio/' 
+ name:'Multi-Post Stories',
+ description:'Take a look of my works. If you like what you see and have a project you need coded',
+ featured_image:'img/work_6.png',
+ technologies:['Html','CSS','Javascript'],
+ link_to_source:'https://github.com/principles31/portfolio/tree/portfolio_popup_window',
+ link_to_live:'https://principles31.github.io/portfolio/' 
 }]
 
 let count = 0;
