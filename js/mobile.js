@@ -19,3 +19,20 @@ function hideModal(event) {
 
 flexUl.addEventListener('click', hideModal);
 span.addEventListener('click', hideModal);
+
+// functionality for local storage
+const theForm = document.forms.contactF;
+const fullname = theForm.FullName;
+const email = theForm.Email;
+const message = theForm.Message;
+
+const formData = {
+  fullname: '',
+  email: '',
+  message: '',
+};
+
+const setStorageData = () => {
+  localStorage.setItem('formData', JSON.stringify(formData));
+};
+
