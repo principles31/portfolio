@@ -36,6 +36,11 @@
   display: none;
 }
 
+.error_msg {
+  display: none;
+  color: #f00;
+} 
+
 @media all and (max-width: 500px) {
   .flex_container {
     height: 4910px;
