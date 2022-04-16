@@ -31,30 +31,6 @@
     height: 186px;
   }
 
-  .grid_1 {
-    background-image: url('../img/work_1.png');
-  }
-
-  .grid_2 {
-    background-image: url('../img/work_2.png');
-  }
-
-  .grid_3 {
-    background-image: url('../img/work_3.png');
-  }
-
-  .grid_4 {
-    background-image: url('../img/work_4.png');
-  }
-
-  .grid_5 {
-    background-image: url('../img/work_5.png');
-  }
-
-  .grid_6 {
-    background-image: url('../img/work_6.png');
-  }
-
   .grid_row {
     background: #1a2236;
     height: 156px;
