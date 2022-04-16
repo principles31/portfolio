@@ -78,7 +78,7 @@ function projectloop(prlist) {
   let ht = 0;
   let cs = 0;
   let jst = 0;
-  [ht, cs, jst] = prlist['technologies'];
+  [ht, cs, jst] = prlist.technologies;
   document.getElementsByClassName('htm')[count].textContent = ht;
   document.getElementsByClassName('cs')[count].textContent = cs;
   document.getElementsByClassName('jvt')[count].textContent = jst;
