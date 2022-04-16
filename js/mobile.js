@@ -4,7 +4,6 @@ const flexUl = document.getElementsByClassName('flex_ul')[0];
 const span = document.getElementsByClassName('close')[0];
 
 const projectModal = document.getElementById('projects_modal');
-const projectLink = document.querySelectorAll('.project_click_class');
 const close2 = document.getElementsByClassName('close2')[0];
 
 // When the user clicks on the button, open the modal
@@ -92,21 +91,21 @@ function projectshowmodal() {
 }
 
 function plfunction(e) {
-  let pr_num = parseInt(e.currentTarget.id);
-  let pr_choose = projectlist1[pr_num];
-  document.getElementsByClassName('m_header')[0].textContent = pr_choose.name;
+  let prnum = parseInt(e.currentTarget.id);
+  let prchoose = projectlist1[prnum];
+  document.getElementsByClassName('m_header')[0].textContent = prchoose.name;
   let ht = 0;
   let cs = 0;
   let jst = 0;
-  [ht, cs, jst] = pr_choose.technologies;
+  [ht, cs, jst] = prchoose.technologies;
   document.getElementsByClassName('m_html')[0].textContent = ht;
   document.getElementsByClassName('m_css')[0].textContent = cs;
   document.getElementsByClassName('m_jvt')[0].textContent = jst;
-  document.getElementsByClassName('m_content')[0].textContent = pr_choose.description;
-  document.getElementsByClassName('m_content')[0].href = pr_choose.description;
-  document.getElementsByClassName('live')[0].href = pr_choose.link_to_live;
-  document.getElementsByClassName('source')[0].href = pr_choose.link_to_source;
-  const pc = pr_choose.featured_image;
+  document.getElementsByClassName('m_content')[0].textContent = prchoose.description;
+  document.getElementsByClassName('m_content')[0].href = prchoose.description;
+  document.getElementsByClassName('live')[0].href = prchoose.link_to_live;
+  document.getElementsByClassName('source')[0].href = prchoose.link_to_source;
+  const pc = prchoose.featured_image;
   document.getElementById('project_img_1').src = pc;
   document.getElementById('project_img_2').src = pc;
   document.getElementById('project_img_3').src = pc;
@@ -114,7 +113,6 @@ function plfunction(e) {
   document.getElementById('project_img_0').src = pc;
   projectshowmodal();
 }
-
 
 function projecthidemodal() {
   projectModal.style.display = 'none';
@@ -133,7 +131,6 @@ pr3.addEventListener('click', plfunction);
 pr4.addEventListener('click', plfunction);
 pr5.addEventListener('click', plfunction);
 pr6.addEventListener('click', plfunction);
-
 
 projectlist1.forEach(projectloop);
 // projectLink.forEach(plfunction);
