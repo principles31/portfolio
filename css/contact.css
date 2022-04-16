@@ -1,10 +1,12 @@
 @media all and (max-width: 500px) {
+
+  /* contact_Section */
   .contact_section {
     position: absolute;
     top: 4290px;
     display: flex;
     flex-direction: column;
-    width: 95vw;
+    width: 99vw;
   }
 
   .section-desc {

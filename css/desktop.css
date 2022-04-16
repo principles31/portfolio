@@ -35,12 +35,12 @@ body {
   height: 100px;
 }
 
-.project_click_class:hover .about_button:hover {
-  background-color: rgba(53, 53, 48, 0.486);
+.project_click_class:hover .about_button:hover .text_button:hover{
+  background-color: #fff;
 }
 
-.project_click_class:active .about_button:active {
-  background-color: rgba(156, 231, 69, 0.623);
+.project_click_class:active .about_button:active .text_button:active{
+  background-color: #fff;
 }
 
 .flex_nav > ul > li > a {
@@ -89,6 +89,10 @@ body {
 
   .mobile_off {
     display: none;
+  }
+
+  .image_hide{
+    display: block;
   }
 
   .section_div {
@@ -175,7 +179,6 @@ body {
   .work_container {
     display: grid;
     margin-top: 150px;
-    height: 200px;
   }
 
   .grid_picture {
@@ -302,11 +305,8 @@ body {
   }
 
   .about_section {
-    position: relative;
-    top: 85vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: row;
   }
 
@@ -318,7 +318,6 @@ body {
   .about_container {
     display: grid;
     grid-template-columns: auto auto;
-    height: 200px;
     justify-content: space-evenly;
   }
 
@@ -345,24 +344,19 @@ body {
     background-position: center;
     height: 186px;
     width: 100px;
-    position: absolute;
+    margin-left: 300px;
+    margin-top: 93px;
   }
 
   .about_img_1 {
     background-image: url('../img/about_1.png');
-    bottom: -168px;
-    left: 456px;
   }
 
   .about_img_2 {
     background-image: url('../img/about_2.png');
-    bottom: -160px;
-    right: 598px;
   }
 
   .about_img_3 {
-    bottom: -560px;
-    left: 456px;
     background-image: url('../img/about_3.png');
   }
 
@@ -397,18 +391,11 @@ body {
     height: 40px;
   }
 
-  .contact_section {
-    position: relative;
-    top: 1450px;
-  }
-
   .mobile_logo {
     width: 500px;
   }
 
   .contact_div {
-    width: 650px;
-    margin-left: 35vw;
     margin-top: 10vh;
     margin-bottom: 10vh;
   }
@@ -521,9 +508,7 @@ body {
     background-size: contain;
     width: 352px;
     height: 330px;
-    position: absolute;
     background-position: left;
-    left: 0;
   }
 
   .contact_logo_shape_2 {
@@ -532,9 +517,27 @@ body {
     background-size: contain;
     width: 352px;
     height: 330px;
-    position: absolute;
-    background-position: left;
-    right: 0;
-    bottom: 11vh;
+    background-position: bottom;
+    align-self: flex-end;
+  }
+
+  .grid_container_work {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 10px;
+  }
+
+  .grid_2_item {
+    height: 2000px;
+  }
+
+  .contact_flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .c_div {
+    padding-left: 30vh;
+    padding-right: 30vh;
   }
 }
