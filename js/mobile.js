@@ -79,7 +79,7 @@ function projectloop(prlist) {
   document.getElementsByClassName('htm')[count].textContent = ht;
   document.getElementsByClassName('cs')[count].textContent = cs;
   document.getElementsByClassName('jvt')[count].textContent = jst;
-  document.getElementsByClassName('g_p')[count].style.backgroundImage = 'url(', ${prlist.featured_image}, ')';
+  document.getElementsByClassName('g_p')[count].style.backgroundImage = 'url(${prlist.featured_image})';
   count += 1;
 }
 
