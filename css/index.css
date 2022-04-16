@@ -43,6 +43,10 @@
 .error_msg {
   display: none;
   color: #f00;
+<<<<<<< Updated upstream
+=======
+  align-self:center;
+>>>>>>> Stashed changes
 }
 
 @media all and (max-width: 500px) {
