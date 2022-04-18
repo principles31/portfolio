@@ -7,7 +7,7 @@ const projectModal = document.getElementById('projects_modal');
 const close2 = document.getElementsByClassName('close2')[0];
 
 // When the user clicks on the button, open the modal
-function showmodal(e) {
+function showmodal() {
   modal.style.display = 'block';
   flexUl.style.display = 'block';
   e.preventDefault();
