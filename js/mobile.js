@@ -3,7 +3,7 @@ const btn = document.getElementById('navbar_modal');
 const flexUl = document.getElementsByClassName('flex_ul')[0];
 const span = document.getElementsByClassName('close')[0];
 
-function showmodal(event) {
+function showmodal() {
   modal.style.display = 'block';
   flexUl.style.display = 'block';
   event.preventDefault();
