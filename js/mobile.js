@@ -10,7 +10,7 @@ const close2 = document.getElementsByClassName('close2')[0];
 function showmodal(event) {
   modal.style.display = 'block';
   flexUl.style.display = 'block';
-  event.preventDefault()
+  event.preventDefault();
 }
 
 btn.addEventListener('click', showmodal);
