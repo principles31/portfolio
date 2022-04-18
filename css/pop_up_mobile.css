@@ -1,0 +1,158 @@
+@media all and (max-width: 500px) {
+  .project_modal_grid {
+    display: grid;
+    grid-template-rows: auto;
+  }
+
+  .project_grid_row {
+    text-align: center;
+    margin: 0 15px 0 10px;
+  }
+
+  .project_header {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 80%;
+  }
+
+  .close2 {
+    color: #000;
+    float: right;
+    font-size: 58px;
+    font-weight: bold;
+  }
+
+  .project_category > li {
+    background-color: #fff;
+    margin: 10px;
+    font-size: 15px;
+    width: 87px;
+    height: 20px;
+    list-style-type: none;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #000;
+  }
+
+  .project_click_modal {
+    height: 40px;
+    border: 1px solid #1a2236;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 25px;
+  }
+
+  .project_click_modal:hover {
+    background-color: rgba(53, 53, 48, 0.486);
+  }
+
+  .project_img_h:hover,
+  .active {
+    border: 2px solid #000;
+  }
+
+  .github_p_key {
+    background-image: url('../img/github.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 30px;
+    height: 20px;
+  }
+
+  .arrow_project {
+    background-image: url('../img/arrow-project.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 30px;
+    height: 20px;
+  }
+
+  .project_click_modal > p {
+    width: 124px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .project_flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project_flex_img {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .project_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .grid_img_3 {
+    height: 250px;
+  }
+
+  .grid_img_2 {
+    margin-bottom: 20px;
+  }
+
+  #projects_modal {
+    display: none;
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #fff;
+  }
+
+  .proj_text {
+    font-weight: 500;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    color: #fff;
+    cursor: pointer;
+    height: 138px;
+    position: absolute;
+    width: auto;
+    margin: 0 15px 0 15px;
+    padding-top: 25%;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}

@@ -35,11 +35,15 @@ body {
   height: 100px;
 }
 
-.project_click_class:hover .about_button:hover .text_button:hover {
+.project_click_class:hover,
+.about_button:hover,
+.text_button:hover {
   background-color: #fff;
 }
 
-.project_click_class:active .about_button:active .text_button:active {
+.project_click_class:active,
+.about_button:active,
+.text_button:active {
   background-color: #fff;
 }
 
@@ -232,7 +236,7 @@ body {
   .grid_row {
     background: #1a2236;
     height: 156px;
-    margin-left: 38vw;
+    margin-left: 31vw;
   }
 
   .alternaterow {

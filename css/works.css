@@ -1,4 +1,5 @@
 @media all and (max-width: 500px) {
+  /* work section css */
   .works_section {
     position: absolute;
     top: 650px;
@@ -28,30 +29,6 @@
     background-size: cover;
     background-position: center;
     height: 186px;
-  }
-
-  .grid_1 {
-    background-image: url('../img/work_1.png');
-  }
-
-  .grid_2 {
-    background-image: url('../img/work_2.png');
-  }
-
-  .grid_3 {
-    background-image: url('../img/work_3.png');
-  }
-
-  .grid_4 {
-    background-image: url('../img/work_4.png');
-  }
-
-  .grid_5 {
-    background-image: url('../img/work_5.png');
-  }
-
-  .grid_6 {
-    background-image: url('../img/work_6.png');
   }
 
   .grid_row {
@@ -121,11 +98,13 @@
     height: 20px;
   }
 
-  .project_click_class:hover .about_button:hover {
+  .project_click_class:hover,
+  .about_button:hover {
     background-color: rgba(53, 53, 48, 0.486);
   }
 
-  .project_click_class:active .about_button:active {
+  .project_click_class:active,
+  .about_button:active {
     background-color: rgba(156, 231, 69, 0.623);
   }
 }

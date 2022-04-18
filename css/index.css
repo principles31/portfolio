@@ -36,10 +36,24 @@
   display: none;
 }
 
+.show_desktop {
+  display: block;
+}
+
+.error_msg {
+  display: none;
+  color: #f00;
+  align-self: center;
+}
+
 @media all and (max-width: 500px) {
   .flex_container {
     height: 4910px;
     background: #fff;
+  }
+
+  .show_desktop {
+    display: none;
   }
 
   .flex_nav {
@@ -219,6 +233,7 @@
     background-color: #fff;
   }
 
+  /* Modal Content/Box */
   .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
