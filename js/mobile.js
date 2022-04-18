@@ -11,10 +11,9 @@ function showmodal(event) {
 
 btn.addEventListener('click', showmodal);
 
-function hideModal(event) {
+function hideModal() {
   modal.style.display = 'none';
   flexUl.style.display = 'none';
-  event.preventDefault();
 }
 
 flexUl.addEventListener('click', hideModal);
